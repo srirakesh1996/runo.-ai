@@ -1,0 +1,707 @@
+.motion {
+	width: 100px;
+	position: absolute;
+	left: 0;
+	top: 40%;
+	animation: moveUpDown1 3s infinite alternate;
+}
+
+@keyframes moveUpDown1 {
+	0% {
+		top: 40%;
+	}
+
+	100% {
+		top: 35%;
+	}
+}
+
+.motion2 {
+	width: 100px;
+	position: absolute;
+	right: 0;
+	top: 30%;
+	animation: moveRound 5s infinite alternate;
+}
+
+@keyframes moveRound {
+	0% {
+		transform: translate(0, 0);
+	}
+
+	25% {
+		transform: translate(10px, -10px);
+	}
+
+	50% {
+		transform: translate(0, -20px);
+	}
+
+	75% {
+		transform: translate(-10px, -10px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+.motion3 {
+	width: 100px;
+	position: absolute;
+	right: 0;
+	top: 90%;
+	animation: moveUpDown2 3s infinite alternate;
+}
+
+@keyframes moveUpDown2 {
+	0% {
+		top: 90%;
+	}
+
+	100% {
+		top: 85%;
+	}
+}
+
+.motion-deals {
+	width: 100px;
+	position: absolute;
+	left: 10%;
+	top: 20%;
+	animation: moveUpDown3 3s infinite alternate;
+}
+
+@keyframes moveUpDown3 {
+	0% {
+		top: 5%;
+	}
+
+	100% {
+		top: 8%;
+	}
+}
+
+
+.motion-deals2 {
+	width: 150px;
+	position: absolute;
+	right: 10%;
+	top: 85%;
+	animation: moveUpDown4 3s infinite alternate;
+}
+
+@keyframes moveUpDown4 {
+	0% {
+		top: 85%;
+	}
+
+	100% {
+		top: 87%;
+	}
+}
+
+
+.motion-features {
+	width: 100px;
+	position: absolute;
+	left: -30px;
+	top: 50%;
+	animation: moveUpDown5 3s infinite alternate;
+}
+
+@keyframes moveUpDown5 {
+	0% {
+		top: 50%;
+	}
+
+	100% {
+		top: 55%;
+	}
+}
+
+
+/* Feature Box */
+.feature-box {
+	background: #fff;
+	border-radius: 10px;
+	padding: 1.5rem;
+	width: 400px;
+	height: 370px;
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Scrollable Feature Grid */
+.feature-grid {
+	max-height: 270px;
+	/* adjust height as needed */
+	overflow-y: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 12px;
+	padding-right: 8px;
+	/* space for scrollbar */
+}
+
+/* Scrollbar only for feature-grid */
+.feature-grid::-webkit-scrollbar {
+	width: 6px;
+}
+
+.feature-grid::-webkit-scrollbar-thumb {
+	background: #e26700;
+	border-radius: 20px;
+	min-height: 20px;
+}
+
+.feature-grid::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/* Feature Cards */
+.feature-card {
+	background: #f1f1f1;
+	color: #333;
+	padding: 10px 8px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 1.7;
+	border-radius: 10px;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+
+.feature-card .ico svg {
+	transition: 0.3s ease;
+}
+
+.feature-card:hover {
+	background-color: #ff9800;
+	color: #fff;
+}
+
+.ico svg {
+	width: 20px;
+	fill: #7f7f7f;
+	/* initial dark gray */
+}
+
+/* Add this part */
+.feature-card:hover .ico svg {
+	width: 20px;
+	fill: #ffffff;
+}
+
+.feature-card.active {
+	border: 2px solid #ff9800;
+	font-weight: 600;
+}
+
+
+#mobilePreview {
+	transition: opacity 0.4s ease-in-out;
+	opacity: 1;
+}
+
+#mobilePreview.fade-out {
+	opacity: 0;
+}
+
+
+.clients-section {
+	padding: 40px 0;
+	background-color: #000;
+	overflow: hidden;
+}
+
+.clients-section h2 {
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.clients-logos-wrapper {
+	overflow: hidden;
+	position: relative;
+}
+
+.clients-logos {
+	display: flex;
+	width: max-content;
+	animation: marquee 15s linear infinite;
+	/* Faster animation */
+}
+
+.clients-logos img {
+	height: 60px;
+	margin: 0 20px;
+	object-fit: contain;
+	white-space: nowrap;
+}
+
+@keyframes marquee {
+	0% {
+		transform: translateX(0%);
+	}
+
+	100% {
+		transform: translateX(-50%);
+	}
+}
+
+/* Responsive Speed Adjustment */
+@media (max-width: 768px) {
+	.clients-logos {
+		animation: marquee 10s linear infinite;
+		/* Faster on mobile */
+	}
+}
+
+
+.contact-section {
+	position: relative;
+	background: url('../img/contact.png') no-repeat center center/cover;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 50px;
+	margin: 50px auto;
+	max-width: 1200px;
+	display: flex;
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+
+.contact-content {
+	background: rgba(0, 0, 0, 0.5);
+	/* semi-transparent background */
+	padding: 30px;
+	border-radius: 20px;
+	max-width: 500px;
+	color: white;
+}
+
+.contact-content h2 {
+	font-weight: 700;
+	font-size: 35px;
+	color: #fff;
+}
+
+.contact-content p {
+	margin-top: 15px;
+	font-size: 1rem;
+}
+
+.hero-image img {
+	max-width: 100%;
+	border-radius: 20px;
+}
+
+.home-contact {
+
+	padding: 20px 30px;
+}
+
+.sales-section {
+	background: linear-gradient(90deg, #f76b1c, #ffaf2e);
+	/* Orange gradient */
+	padding: 40px 20px;
+	border-radius: 30px;
+	color: white;
+	text-align: center;
+}
+
+.sales-section .btn-outline-light {
+	border-color: white;
+	color: white;
+	font-weight: 700;
+	padding: 10px 20px;
+	border-radius: 50px;
+}
+
+.sales-section .btn-outline-light:hover {
+	background-color: white;
+	color: #f76b1c;
+}
+
+
+.scroll-tabs {
+	overflow-x: auto;
+	white-space: nowrap;
+	margin-bottom: 1rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid #444;
+}
+
+.scroll-tabs h5 {
+	display: inline-block;
+	margin-right: 1rem;
+	padding: 0.5rem 1rem;
+	background: #333;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.scroll-tabs h5:hover {
+	background-color: #555;
+}
+
+.side-nav .deals-item {
+	padding: 1rem;
+	margin-bottom: 1rem;
+
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.side-nav .deals-item p {
+	display: none;
+	margin-top: 0.5rem;
+}
+
+.side-nav .deals-item.active {
+	background-color: #444;
+}
+
+.side-nav .deals-item.active p {
+	display: block;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+.image-display {
+	position: relative;
+	text-align: center;
+	border-radius: 12px;
+}
+
+.image-display img {
+	width: 100%;
+	border-radius: 12px;
+}
+
+.image-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.85);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: opacity 0.4s ease;
+	border-radius: 12px;
+	padding: 1rem;
+}
+
+.image-display:hover .image-overlay {
+	opacity: 1;
+}
+
+@media (max-width: 768px) {
+	.scroll-tabs h5 {
+		font-size: 0.9rem;
+		padding: 0.4rem 0.7rem;
+	}
+}
+
+/*
+/* Active Tab */
+.deals-item.active {
+	background-color: #ff9800;
+	/* Active tab color */
+	color: white;
+	border-left: 4px solid #ff9800;
+	/* Orange vertical line for active tab */
+}
+
+
+
+/* Inactive Tabs */
+.deals-item:not(.active) {
+
+	color: #757575;
+	border-left: 4px solid transparent;
+	/* Transparent vertical line for inactive tabs */
+}
+
+.deals-item:hover {
+	background-color: #ff9800;
+	/* Slight hover effect */
+}
+
+.deals-section {
+
+	position: relative;
+	border-radius: 30px;
+	margin: 20px auto;
+	display: block;
+	padding: 30px;
+  z-index:0;
+}
+
+.deals-content {
+	position: relative;
+	/* Needed for overlay positioning */
+	background-color: rgba(35, 34, 33, 0.8);
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	border-radius: 30px;
+	overflow: hidden;
+	/* Ensures the overlay doesn't spill out */
+
+}
+
+.deals-content::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.4);
+	/* Adjust overlay color and opacity here */
+	z-index: -1;
+	/* Places it behind the actual content */
+	border-radius: 30px;
+	/* Match the border radius of the parent */
+}
+
+.deals-content h2 {
+
+	color: #fff;
+
+}
+
+.deals-item h5 {
+
+	color: #fff;
+
+}
+
+.deals-section .container {
+	width: 80%;
+
+}
+
+@media only screen and (max-width: 768px) {
+	.deals-section .container {
+		width: 100%;
+
+	}
+}
+
+.demo-section {
+	background-color: #000;
+	color: white;
+	text-align: center;
+	padding: 20px 20px;
+	position: relative;
+}
+
+.demo-section h2 {
+	color: #fff;
+}
+
+.demo-section p {
+	font-size: 1rem;
+	margin-bottom: 40px;
+	color: #ccc;
+}
+
+.video-wrapper {
+	display: block;
+	position: relative;
+	display: inline-block;
+	max-width: 80%;
+	width: 100%;
+	margin-bottom: 30px;
+	border-radius: 16px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.video-thumbnail {
+	border-radius: 50px;
+	width: 100%;
+	display: block;
+}
+
+.play-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: white;
+	border: none;
+	border-radius: 50%;
+	padding: 20px;
+	font-size: 25px;
+	color: orange;
+	cursor: pointer;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.cta-button {
+	background: orange;
+	color: black;
+	border: none;
+	padding: 12px 30px;
+	border-radius: 25px;
+	font-weight: 700;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+	background: #ffb400;
+}
+
+/* Modal Styles */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+	background: #000;
+	margin: 10% auto;
+	padding: 0;
+	border-radius: 10px;
+	max-width: 800px;
+	width: 90%;
+	position: relative;
+}
+
+.close-button {
+	color: white;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.demo-btn {
+	display: block;
+	margin: 20px auto;
+	z-index: 0;
+}
+
+.our-faqs h2 {
+	color: #fff !important;
+}
+
+.faq-buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.faq-item {
+	background-color: rgba(35, 34, 33, 0.8);
+	border-radius: 8px;
+	overflow: hidden;
+	transition: all 0.3s ease;
+}
+
+.faq-item.active {
+	background-color: rgba(35, 34, 33, 0.8);
+}
+
+.faq-question {
+  font-size:17px !important;
+	background: none;
+	color: #fff;
+	border: none;
+	width: 100%;
+	text-align: left;
+	padding: 15px;
+	font-size: 16px;
+	cursor: pointer;
+	font-weight: 700;
+}
+
+.faq-answer {
+	padding: 0 15px 15px 15px;
+	color: #ccc;
+	font-size: 16px !important;
+	display: none;
+}
+
+.features-section {
+
+	color: #fff;
+	position: relative;
+}
+
+.features-section h2 {
+	font-weight: 700;
+	margin-bottom: 15px;
+	color: #fff;
+}
+
+.feature-card-sec h5 {
+
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+
+.features-section p {
+	color: #ccc;
+	font-size: 15px;
+}
+
+.feature-card-sec {
+
+	border-radius: 12px;
+	padding: 20px;
+	text-align: center;
+	height: 100%;
+}
+
+.feature-card-sec img {
+	width: 50px;
+	height: 50px;
+}
+
+/* Hide swiper navigation arrows on desktop */
+@media (min-width: 768px) {
+
+	.swiper-button-next,
+	.swiper-button-prev {
+		display: none;
+	}
+}
+
+.cta-demo {
+
+	padding: 20px 30px;
+
+}
+
+
+.faq-answer {
+
+	transition: max-height 0.3s ease;
+}
+
+.highlet{
+  background: linear-gradient(89deg, #F57B60 0%, #FFB100 100%) 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  padding: 8px 15px;
+}
