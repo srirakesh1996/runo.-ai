@@ -1,55 +1,76 @@
-<?php include('doctype.html'); ?>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-	<!-- Page Title -->
+  <!-- Page Title -->
   <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
 
-<?php include('head.html'); ?>
+  <div id="head-include"></div>
 
-
+  <script>
+    fetch('head.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('head-include').outerHTML = data;
+      });
+  </script>
 </head>
+
 <body>
 <div style="background:#000" id="home">
 
- <!-- Preloader Start -->
- <div class="preloader">
-		<div class="loading-container">
-			<div class="loading"></div>
-			<div id="loading-icon"><img src="img/logo.png" alt=""></div>
-		</div>
-	</div>
-	<!-- Preloader End -->
-
-    <?php include('home-banner.html'); ?>
-
-    <?php include('home-clients.html'); ?>
-
-    <?php include('home-deals.html'); ?>
-    
-    <?php include('home-demo.html'); ?>
-
-    <?php include('home-features.html'); ?>
-
-    <?php include('home-cta.html'); ?>
-
-    <?php include('home-leads.html'); ?>
-
-    <?php include('home-comparision.html'); ?>
-
-    <?php include('home-testimonials.html'); ?>
-
-    <?php include('home-faqs.html'); ?>
-  
-    <?php include('home-contact.html'); ?>
-
+  <!-- Preloader Start -->
+  <div class="preloader">
+    <div class="loading-container">
+      <div class="loading"></div>
+      <div id="loading-icon"><img src="img/logo.png" alt=""></div>
     </div>
+  </div>
+  <!-- Preloader End -->
 
-    
-    <?php //include('footer.html'); ?>
+  <div id="home-banner"></div>
+  <div id="home-clients"></div>
+  <div id="home-deals"></div>
+  <div id="home-demo"></div>
+  <div id="home-features"></div>
+  <div id="home-cta"></div>
+  <div id="home-leads"></div>
+  <div id="home-comparision"></div>
+  <div id="home-testimonials"></div>
+  <div id="home-faqs"></div>
+  <div id="home-contact"></div>
 
-    <?php include('footerjs.html'); ?>
-    <script>
+</div>
+
+<!-- FooterJS -->
+<div id="footerjs-include"></div>
+
+<script>
+  // Helper function to load HTML into a div
+  function loadInclude(id, file) {
+    fetch(file)
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById(id).outerHTML = data;
+      });
+  }
+
+  // Load all includes
+  loadInclude('home-banner', 'home-banner.html');
+  loadInclude('home-clients', 'home-clients.html');
+  loadInclude('home-deals', 'home-deals.html');
+  loadInclude('home-demo', 'home-demo.html');
+  loadInclude('home-features', 'home-features.html');
+  loadInclude('home-cta', 'home-cta.html');
+  loadInclude('home-leads', 'home-leads.html');
+  loadInclude('home-comparision', 'home-comparision.html');
+  loadInclude('home-testimonials', 'home-testimonials.html');
+  loadInclude('home-faqs', 'home-faqs.html');
+  loadInclude('home-contact', 'home-contact.html');
+  loadInclude('footerjs-include', 'footerjs.html');
+</script>
+
+<script>
+  // Sticky header logic
   window.addEventListener('scroll', function () {
     const header = document.querySelector('.header-sticky');
     if (window.scrollY > 100) {
@@ -60,6 +81,5 @@
   });
 </script>
 
-    </body>
-
+</body>
 </html>
