@@ -1,6 +1,9 @@
 <!-- Demo Section Start -->
 <section class="demo-section">
   <div class="container">
+
+  <img src="img/tri2.png" class="motion-demo" data-wow-delay="0.5s">
+<img src="img/tri.png" class="motion-demo2" data-wow-delay="0.7s">
     <div class="row">
 
       <!-- Section Title -->

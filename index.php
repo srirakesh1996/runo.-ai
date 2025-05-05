@@ -10,7 +10,7 @@
 
 </head>
 <body>
-<div style="background:#000">
+<div style="background:#000" id="home">
 
  <!-- Preloader Start -->
  <div class="preloader">

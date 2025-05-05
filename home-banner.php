@@ -14,15 +14,7 @@
     .floating-img.fade-out {
         opacity: 0;
     }
-    
-    .ico svg{
-      width:30px;
-    }
-    
-    .ico svg:hover {
-      width: 30px;
-      fill: #ffffff;
-    }
+
 </style>
 
 <!-- Hero Section Start -->
@@ -35,13 +27,13 @@
                 <nav class="navbar navbar-expand-lg">
                     <div class="container" style="width: 1000px;">
                         <!-- Logo Start -->
-                        <a class="navbar-brand" href="index-2.html">
+                        <a class="navbar-brand" href="index.html">
                             <img src="img/logo.png" alt="Logo" style="width: 100px;">
                         </a>
                         <!-- Logo End -->
 
                         <!-- Main Menu Start -->
-                        <div class="collapse navbar-collapse main-menu">
+                        <div class="collapse navbar-collapse main-menu" id="home-menu">
                             <div class="nav-menu-wrapper">
                                 <ul class="navbar-nav mr-auto" id="menu">
                                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
@@ -70,13 +62,15 @@
                     <!-- Section Title Start -->
                     <div class="section-title dark-section text-center wow fadeInUp" data-wow-delay="0.3s">
                         <h1 class="wow fadeInUp" data-wow-delay="0.4s">
-                           Runo AI: 78% Calls Get Answered.<br>2x Deals Get Closed.
-                         </h1>
+                        AI-Powered SIM-Based Call Management CRM </h1>
+                        <p>78% Calls Get Answered. 2x Deals Get Closed.
+                        </p>
                          <p class="wow fadeInUp" data-wow-delay="0.5s">
       <span class="highlet wow animate__animated animate__zoomIn" data-wow-delay="1s">
-        Plug & Play Mobile CRM
+      SIM Based Call Management
       </span> &nbsp;
-      | Built for Mobile-first Sales Teams | Call Recording with AI Sentiment Analysis | AI Chat Assistance & Sales Coaching
+      | Plug & Play Mobile CRM | Call Recording with AI Sentiment Analysis 
+
     </p>
                     </div>
                     <!-- Section Title End -->
@@ -327,20 +321,22 @@
                     </script>
 
                     <!-- Hero Body Buttons -->
-                    <div class="hero-body wow fadeInUp mt-50" data-wow-delay="1.3s">
+                    <div class="hero-body wow fadeInUp mt-50" data-wow-delay="1.3s" style="margin-bottom:10px">
                         <div class="hero-btn">
                             <a href="contact.html" class="btn-plain">Book a Demo</a>
+                            <p>For 20+ Teams Size</p>
                         </div>
                         <div class="hero-btn">
                             <a href="contact.html" class="btn-default btn-highlighted">Start 10-day free trial</a>
+                            <p>No Credit Card required</p>
                         </div>
                     </div>
 
                     <!-- Hero Features List -->
                     <div class="hero-list wow fadeInUp" data-wow-delay="1.4s">
                         <ul>
-                            <li>For 20+ Teams Size</li>
-                            <li>No Credit Card required</li>
+                            <li></li>
+                            <li></li>
                         </ul>
                     </div>
 

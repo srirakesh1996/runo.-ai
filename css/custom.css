@@ -25,25 +25,51 @@ body{
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.7em;
-	background-color: var(--secondary-color);
+	background-color: #fff;
 	color: var(--text-color);
 }
 
 p{
 	line-height: 1.7em;
 	margin-bottom: 1.5em;
+	font-weight: 400;
 }
 
+/* Global heading styles */
 h1,
 h2,
 h3,
 h4,
 h5,
-h6{
-	margin : 0;
+h6 {
+	margin: 0;
 	font-weight: 700;
 	line-height: 1.2em;
+	color:#2D3748;
+}
+
+/* Heading styles specific to #home section */
+#home h1,
+#home h2,
+#home h3,
+#home h4,
+#home h5,
+#home h6 {
 	color: var(--primary-color);
+}
+
+#home p{
+
+	color:#ffffff;
+	font-size:17px !important;
+
+}
+
+p{
+
+	color:#2D3748;
+	font-size:16px !important;
+
 }
 
 figure{
@@ -351,7 +377,7 @@ body{
 	position: relative;
 	display: inline-block;
 	font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
 	line-height: 1.3em;
     text-transform: capitalize;
     color: var(--text-color);
@@ -416,7 +442,7 @@ body{
 
 .help-block.with-errors ul li{
 	color: var(--error-color);
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 14px;
 }
 
@@ -476,7 +502,7 @@ body{
 }
 
 .topbar-social-links ul li a{
-	font-weight: 500;
+	font-weight: 400;
     color: var(--accent-color);
 	text-transform: capitalize;
     transition: all 0.3s ease-in-out;
@@ -518,8 +544,13 @@ header.main-header .header-sticky.active{
 	border-bottom: 1px solid var(--divider-color);
 }
 
-.navbar{
+#home .navbar{
 	padding: 10px 0;
+	align-items: center;
+}
+
+.navbar{
+	padding: 20px 0;
 	align-items: center;
 }
 
@@ -544,14 +575,18 @@ header.main-header .header-sticky.active{
 	position: relative;
 }
 
+
 .main-menu ul li a{
-	font-size: 16px;
-	font-weight: 500;
+	font-size: 17px;
+	font-weight: 400;
 	line-height: 1.2em;
 	padding: 14px 15px !important;
-	color: var(--white-color);
+	color: #303030;
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
+}
+.header-sticky.active .main-menu ul li a {
+	color: #fff !important;
 }
 
 .main-menu ul li.submenu > a:after{
@@ -564,7 +599,7 @@ header.main-header .header-sticky.active{
 
 .main-menu ul li a:hover,
 .main-menu ul li a:focus{
-	color: #fff;
+	color:  #303030;;
 }
 
 .main-menu ul ul{
@@ -585,15 +620,8 @@ header.main-header .header-sticky.active{
 	text-align: left;
 }
 
-.main-menu ul li.submenu ul{
-    width: 230px;
-	background:#252525;
-
-}
 .main-menu ul li.submenu:first-child ul{
     width: 230px;
-	background:#252525;
-
 }
 
 .main-menu ul ul ul{
@@ -620,7 +648,7 @@ header.main-header .header-sticky.active{
 }
 
 .main-menu ul ul li a{
-	color: #fff;
+	color: var(--accent-color);
 	padding: 8px 20px !important;
 	transition: all 0.3s ease-in-out;
 }
@@ -642,6 +670,7 @@ header.main-header .header-sticky.active{
 .main-menu ul li.highlighted-menu{
     display: none;
 }
+
 
 .responsive-menu,
 .navbar-toggle{
@@ -715,7 +744,7 @@ header.main-header .header-sticky.active{
 .slicknav_nav li a{
 	position: relative;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 400;
 	text-transform: capitalize;
 	padding: 8px 20px;
 	color: var(--accent-color);
@@ -906,8 +935,15 @@ header.main-header .header-sticky.active{
 
 .hero-btn{
 	display: flex;
+		align-items: stretch;
+		flex-direction: column;
+		gap: 10px;
 }
 
+.hero-btn p{
+
+	font-size:13px;
+}
 .video-play-button{
 	display: flex;
     align-items: center;
@@ -966,10 +1002,11 @@ header.main-header .header-sticky.active{
 .hero-list ul li{
     position: relative;
 	color: var(--secondary-color);
-    padding-left: 25px;
+    padding-left: 5px;
+	font-size:15px;
 }
 
-.hero-list ul li:before{
+/*.hero-list ul li:before{
     content: '\f058';
     position: absolute;
     font-family: 'Font Awesome 6 Free';
@@ -981,7 +1018,7 @@ header.main-header .header-sticky.active{
     display: inline-block;
     line-height: normal;
 }
-
+*/
 .hero-image img{
 	width: 100%;
 	aspect-ratio: 1 / 0.573;
@@ -1300,7 +1337,7 @@ header.main-header .header-sticky.active{
 
 .process-step-footer p{
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 400;
 	color: var(--primary-color);
 	margin-bottom: 40px;
 }
@@ -1805,7 +1842,7 @@ header.main-header .header-sticky.active{
 	border: none;
     color: var(--secondary-color);
 	font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.2em;
 	padding: 0 5px;
     text-transform: capitalize;
@@ -2197,6 +2234,7 @@ header.main-header .header-sticky.active{
 	height: 24px;
 	width: 24px;
 	border: 2px solid var(--accent-color);
+
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
@@ -2204,13 +2242,23 @@ header.main-header .header-sticky.active{
     transition: all 0.3s ease-in-out;
 }
 
+
+
+.faq-accordion .accordion-button:not(.collapsed)::before{
+	color:var(--accent-secondary-color);
+	border-color: var(--accent-secondary-color);
+    transform: rotate(180deg);
+}
+
+
 .faq-accordion .accordion-button:not(.collapsed)::after{
-	color: var(--accent-secondary-color);
+
 	border-color: var(--accent-secondary-color);
     transform: rotate(180deg);
 }
 
 .faq-accordion .accordion-item .accordion-body{
+	color:#2D3748;
 	padding-right: 35px;
 }
 
@@ -2550,7 +2598,7 @@ header.main-header .header-sticky.active{
 }
 
 .page-about{
-	padding: 100px 0 50px;
+	padding: 50px 0 50px;
 }
 
 .about-image{
@@ -2559,13 +2607,21 @@ header.main-header .header-sticky.active{
 	margin-right: 20px;
 }
 
+.about-image2{
+	position: relative;
+	padding-left: 60px;
+	margin-left: 20px;
+}
+
+
+
 .about-img figure{
 	display: block;
 }
 
 .about-img img{
 	width: 100%;
-	aspect-ratio: 1 / 1.27;
+	aspect-ratio: 1 / 1.1;
 	object-fit: cover;
 }
 
@@ -2715,13 +2771,13 @@ header.main-header .header-sticky.active{
 }
 
 .our-approach{
-	padding: 50px 0 100px;
+	padding: 50px 0 50px;
 }
 
 .mission-vision-item{
 	border-bottom: 1px solid var(--divider-color);
-	margin-bottom: 40px;
-	padding-bottom: 40px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .mission-vision-item:last-child{
@@ -2854,7 +2910,7 @@ header.main-header .header-sticky.active{
 }
 
 .team-designation p{
-	font-weight: 500;
+	font-weight: 400;
 	text-transform: capitalize;
 	margin: 0;
 }
@@ -3579,7 +3635,7 @@ header.main-header .header-sticky.active{
 
 .post-entry ul li{
 	font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--text-color);
     position: relative;
     margin-bottom: 15px;
@@ -4214,13 +4270,13 @@ header.main-header .header-sticky.active{
     display: block;
 	font-weight: 400;
     text-transform: capitalize;
-    color: var(--primary-color);
+    color: #2D3748;
 	padding-right: 25px;
     transition: all 0.3s ease-in-out;
 }
 
 .faq-catagery-list ul li:hover a{
-    color: var(--accent-secondary-color);
+    color:#2D3748;
 }
 
 .faq-catagery-list ul li a::before{
@@ -4249,7 +4305,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-contact-us{
-	padding: 100px 0;
+	padding: 30px 0;
 }
 
 .contact-us-content{

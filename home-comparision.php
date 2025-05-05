@@ -79,33 +79,58 @@
       <tbody>
         <tr>
           <td>Setup Time</td>
-          <td>Requires a tech team and a prayer to get it working.</td>
-          <td>Requires a tech team and a prayer to get it working.</td>
+          <td> < 30 minutes
+          </td>
+          <td>> 30 days
+          </td>
         </tr>
         <tr>
           <td>Call Connect Rate</td>
-          <td>Calls often flagged as “Likely Spam” and ignored.</td>
-          <td>Calls often flagged as “Likely Spam” and ignored.</td>
+          <td>> 78%
+
+          </td>
+          <td>< 30%
+          </td>
         </tr>
-        <tr>
-          <td>Customization</td>
-          <td>Flexible? Only if you count endless workarounds.</td>
-          <td>Flexible? Only if you count endless workarounds.</td>
-        </tr>
+    
         <tr>
           <td>Follow-Up Reminder</td>
-          <td>If your team remembers, that’s a</td>
-          <td>If your team remembers, that’s a</td>
+          <td>Flexible
+
+          </td>
+          <td>Rigid
+
+          </td>
         </tr>
+
+        <tr>
+          <td>Customization</td>
+          <td>Auto-Assigned
+
+          </td>
+          <td>Manual
+          </td>
+        </tr>
+
+
+
         <tr>
           <td>Price</td>
-          <td>Overpriced features that still leave you stuck in the past.</td>
-          <td>Overpriced features that still leave you stuck in the past.</td>
+          <td>ROI-Friendly
+
+          </td>
+          <td>Expensive
+
+          </td>
         </tr>
         <tr>
           <td>Reliability</td>
-          <td>Sometimes it works, sometimes it doesn’t, it’s a gamble.</td>
-          <td>Sometimes it works, sometimes it doesn’t, it’s a gamble.</td>
+          <td>Zero Downtime
+
+          </td>
+          <td>Unstable
+
+          </td>
         </tr>
       </tbody>
     </table>

@@ -22,3 +22,15 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
+
+          <!-- Sticky Header Script -->
+          <script>
+         window.addEventListener('scroll', function () {
+            const header = document.querySelector('.header-sticky');
+            if (window.scrollY > 100) {
+               header.classList.add('active');
+            } else {
+               header.classList.remove('active');
+            }
+         });
+      </script>
