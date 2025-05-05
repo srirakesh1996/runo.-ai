@@ -1,7 +1,7 @@
-<?php include('doctype.html'); ?>
+<?php include('doctype.php'); ?>
 <head>
    <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
-   <?php include('head.html'); ?>
+   <?php include('head.php'); ?>
    <!-- Animate.css and WOW.js -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
@@ -19,7 +19,7 @@
          </div>
       </div>
       <!-- Preloader End -->
-      <?php include('header.html'); ?>
+      <?php include('header.php'); ?>
       <!-- Page Header Start -->
       <div class="page-title">
          <div class="container">
@@ -317,6 +317,6 @@
    </div>
    <!-- Page Faq End -->
    </div>
-   <?php include('footerjs.html'); ?>
+   <?php include('footerjs.php'); ?>
 </body>
 </html>

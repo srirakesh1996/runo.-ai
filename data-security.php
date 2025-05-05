@@ -1,7 +1,7 @@
-<?php include('doctype.html'); ?>
+<?php include('doctype.php'); ?>
 <head>
    <title>Data Security - Runo CRM</title>
-   <?php include('head.html'); ?>
+   <?php include('head.php'); ?>
 
 
 
@@ -73,7 +73,7 @@
       </div>
       <!-- Preloader End -->
 
-      <?php include('header.html'); ?>
+      <?php include('header.php'); ?>
 
       <!-- Page Header Start -->
       <div class="page-title">
@@ -251,7 +251,7 @@
 
    </div>
 
-<?php include('footer.html'); ?>
-<?php include('footerjs.html'); ?>
+<?php include('footer.php'); ?>
+<?php include('footerjs.php'); ?>
 </body>
 </html>

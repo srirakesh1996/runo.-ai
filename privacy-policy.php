@@ -1,7 +1,7 @@
-<?php include('doctype.html'); ?>
+<?php include('doctype.php'); ?>
 <head>
    <title>Privacy Policy - Runo by Rutakshi Technologies Pvt Ltd</title>
-   <?php include('head.html'); ?>
+   <?php include('head.php'); ?>
 
    <!-- Animate.css and WOW.js -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -34,7 +34,7 @@
       </div>
       <!-- Preloader End -->
 
-      <?php include('header.html'); ?>
+      <?php include('header.php'); ?>
 
       <!-- Page Header Start -->
       <div class="page-title">
@@ -146,7 +146,7 @@
 </section>
 <!-- Terms Section End -->
 
-<?php include('footerjs.html'); ?>
+<?php include('footerjs.php'); ?>
 </div>
 </body>
 </html>
