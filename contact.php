@@ -1,30 +1,7 @@
 <?php include('doctype.php'); ?>
 <head>
-   <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+   <title>Contact</title>
    <?php include('head.php'); ?>
-
-   <!-- Animate.css and WOW.js -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-   <script>
-      new WOW().init();
-   </script>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-
-   <style>
-    .page-contact-us li{
-
-        color:#212121;
-        margin:10px 0px;
-    }
-
-    label{
-
-        color:#212121;
-        margin-bottom:10px;
-    }
-   </style>
 </head>
 <body>
    <div>
