@@ -146,6 +146,9 @@
          </div>
       </section>
 
+<<<<<<< HEAD
+
+=======
       <!-- Optional custom styles -->
       <style>
          .demo-section {
@@ -176,6 +179,7 @@
             }
          });
       </script>
+>>>>>>> a30c7c95144ee9ac4d0bbddb600babeb338944c3
 
    </div>
    <?php include('footer.php'); ?>

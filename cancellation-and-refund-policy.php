@@ -9,6 +9,9 @@
    <script>
       new WOW().init();
    </script>
+<<<<<<< HEAD
+  
+=======
    <style>
       .legal-content h4 {
         margin-top: 30px;
@@ -26,6 +29,7 @@
         color: #4A5568;
       }
    </style>
+>>>>>>> a30c7c95144ee9ac4d0bbddb600babeb338944c3
 </head>
 <body>
    <div>
