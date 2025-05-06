@@ -1,7 +1,8 @@
 <?php include('doctype.php'); ?>
+
 <head>
    <title>About Us</title>
- 
+
    <?php include('head.php'); ?>
 
    <!-- Animate.css and WOW.js -->
@@ -11,6 +12,7 @@
       new WOW().init();
    </script>
 </head>
+
 <body>
    <div>
       <!-- Preloader Start -->
@@ -73,7 +75,7 @@
                            Traditional systems were cumbersome, costly, and often required a massive capital investment. What we envisioned was a solution that would be accessible to businesses of all sizes, completely eliminating the need for extensive hardware and reducing operational costs.
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.6s">
-                           <b>Runo was born out of this vision.</b> 
+                           <b>Runo was born out of this vision.</b>
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.7s">
                            We set out to create the best SIM-based Call Management CRM, allowing businesses to run their calling processes directly from their phones. Our platform offers an integrated CRM, real-time performance analytics, advanced caller ID, and seamless integration with external CRMs, WhatsApp, and email.
@@ -147,44 +149,45 @@
          </div>
       </section>
 
-<<<<<<< HEAD
-
-=======
-      <!-- Optional custom styles -->
-      <style>
-         .demo-section {
-            padding: 60px 0;
-            background-color: #fff6f6;
-         }
-         .demo-text h2 {
-            font-weight: 700;
-            color: #2e0e3a;
-         }
-         .demo-text p {
-            color: #5a3e5e;
-            font-size: 18px;
-         }
-         .demo-img img {
-            max-width: 100%;
-         }
-      </style>
-
-      <!-- Sticky Header Script -->
-      <script>
-         window.addEventListener('scroll', function () {
-            const header = document.querySelector('.header-sticky');
-            if (window.scrollY > 100) {
-               header.classList.add('active');
-            } else {
-               header.classList.remove('active');
+      <<<<<<< HEAD=======<!-- Optional custom styles -->
+         <style>
+            .demo-section {
+               padding: 60px 0;
+               background-color: #fff6f6;
             }
-         });
-      </script>
->>>>>>> a30c7c95144ee9ac4d0bbddb600babeb338944c3
+
+            .demo-text h2 {
+               font-weight: 700;
+               color: #2e0e3a;
+            }
+
+            .demo-text p {
+               color: #5a3e5e;
+               font-size: 18px;
+            }
+
+            .demo-img img {
+               max-width: 100%;
+            }
+         </style>
+
+         <!-- Sticky Header Script -->
+         <script>
+            window.addEventListener('scroll', function() {
+               const header = document.querySelector('.header-sticky');
+               if (window.scrollY > 100) {
+                  header.classList.add('active');
+               } else {
+                  header.classList.remove('active');
+               }
+            });
+         </script>
+         >>>>>>> a30c7c95144ee9ac4d0bbddb600babeb338944c3
 
    </div>
    <?php include('footer.php'); ?>
 
    <?php include('footerjs.php'); ?>
 </body>
+
 </html>
