@@ -2351,11 +2351,11 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .main-footer{
-	background: url(../images/footer-bg.svg), var(--accent-color);
+	background: url(../images/footer-bg.svg), #212121;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
     background-position: center center;
-	padding: 100px 0 0 0;
+	padding: 70px 0 0 0;
 }
 
 .about-footer{
@@ -4882,7 +4882,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.main-footer{
-		padding: 50px 0 0 0;
+		padding: 40px 0 0 0;
 	}
 
 	.about-footer{
