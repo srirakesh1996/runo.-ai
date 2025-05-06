@@ -45,61 +45,6 @@
 <!-- Page Header End -->
 
 
-
-  <style>
-    .news-card {
-      border-radius: 15px;
-      overflow: hidden;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease-in-out;
-    }
-
-    .news-card:hover {
-      transform: scale(1.03);
-    }
-
-    .news-img {
-      width: 100%;
-  
-      object-fit: cover;
-    }
-
-    .news-content {
-      padding: 20px;
-    }
-
-    .news-title {
-      font-size: 1.2rem;
-      font-weight: bold;
-      color:#555;
-    }
-
-    .news-description {
-      color: #555;
-      margin-top: 10px;
-      font-size: 0.95rem;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      min-height: 3em;
-    }
-
-    .btn-default.btn-highlighted {
-      background-color: #007bff;
-      color: white;
-      border: none;
-      margin-top: 15px;
-      transition: background 0.3s ease;
-    }
-
-    .btn-default.btn-highlighted:hover {
-      background-color: #0056b3;
-      color: white;
-    }
-  </style>
-
   <div class="container" style="margin:40px auto">
     <div class="row g-4">
    

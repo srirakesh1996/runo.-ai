@@ -9,19 +9,7 @@
    <script>
       new WOW().init();
    </script>
-   <style>
-      .legal-content h4 {
-         margin-top: 30px;
-         font-weight: 600;
-         color:#2D3748;
-         margin-bottom:10px;
-      }
-      .legal-content p {
-       
-         line-height: 1.7;
-         color: #2D3748;
-      }
-   </style>
+
 </head>
 <body>
    <div>

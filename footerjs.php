@@ -23,6 +23,13 @@
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
 
+<<<<<<< HEAD
+=======
+    <script>
+         
+
+
+>>>>>>> a30c7c95144ee9ac4d0bbddb600babeb338944c3
           <!-- Sticky Header Script -->
           <script>
          window.addEventListener('scroll', function () {
