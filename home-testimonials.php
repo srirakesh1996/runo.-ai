@@ -1,88 +1,87 @@
-
-    <style>
-.testimonial-section {
+<style>
+  .testimonial-section {
     position: relative;
     z-index: 0;
-}
+  }
 
-.testimonial-swiper {
-  width: 100%;
-}
+  .testimonial-swiper {
+    width: 100%;
+  }
 
-.testimonial-slide {
-  display: flex;
-  justify-content: center;
-}
+  .testimonial-slide {
+    display: flex;
+    justify-content: center;
+  }
 
-.testimonial-card {
-  max-width: 950px;
-  position: relative;
-  gap: 1.5rem;
-  padding-left: 170px;
-}
+  .testimonial-card {
+    max-width: 950px;
+    position: relative;
+    gap: 1.5rem;
+    padding-left: 170px;
+  }
 
-.testimonial-image {
-  position: absolute;
-  left: 14%;
- 
-  transform: translateX(-50%);
-  z-index: 2;
-}
+  .testimonial-image {
+    position: absolute;
+    left: 14%;
 
-.testimonial-image img {
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+
+  .testimonial-image img {
     height: 300px;
     object-fit: cover;
-}
+  }
 
-.testimonial-content {
-  background: #fff;
-  max-width: 700px;
-}
+  .testimonial-content {
+    background: #fff;
+    max-width: 700px;
+  }
 
-.swiper-pagination-bullet {
-  background-color: #fff !important;
-  opacity: 0.6;
-}
+  .swiper-pagination-bullet {
+    background-color: #fff !important;
+    opacity: 0.6;
+  }
 
-.swiper-pagination-bullet-active {
-  background-color: #f15b2a !important;
-  opacity: 1;
-}
+  .swiper-pagination-bullet-active {
+    background-color: #f15b2a !important;
+    opacity: 1;
+  }
 
-#testimonials-content h5{
+  #testimonials-content h5 {
 
-    margin-left:160px;
-}
+    margin-left: 160px;
+  }
 
-#testimonials-content small{
+  #testimonials-content small {
 
-margin-left:160px;
-}
+    margin-left: 160px;
+  }
 
 
-#testimonials-content p{
+  #testimonials-content p {
 
-margin-left:160px;
-}
+    margin-left: 160px;
+  }
 
-.content-background {
+  .content-background {
 
     background-color: rgba(35, 34, 33, 0.8);
     padding: 20px;
     border-radius: 30px;
 
-}
+  }
 
-.testimonial-section .swiper-pagination {
+  .testimonial-section .swiper-pagination {
 
     bottom: 0px !important;
-}
+  }
 </style>
 <section class="testimonial-section py-5 bg-black">
   <div class="container text-center mb-5">
-  
-        <!-- Section Title -->
-        <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
+
+    <!-- Section Title -->
+    <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
       <h2>We’re Not Saying Runo’s Magic…<br>But People Think It Is</h2>
     </div>
 

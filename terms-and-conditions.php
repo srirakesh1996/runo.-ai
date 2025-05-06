@@ -1,16 +1,13 @@
 <?php include('doctype.php'); ?>
+
 <head>
    <title>Terms and Conditions - Runo CRM</title>
    <?php include('head.php'); ?>
 
-   <!-- Animate.css and WOW.js -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-   <script>
-      new WOW().init();
-   </script>
-  
+
+
 </head>
+
 <body>
    <div>
       <!-- Preloader Start -->
@@ -58,11 +55,11 @@
                   <p>You may not sell or modify the content of this App or reproduce, display, publicly perform, distribute, or otherwise use the materials in any way for any public or commercial purpose without the Sellers’ written permission.</p>
 
                   <h4>ACCEPTABLE WEBSITE USE</h4>
-               
-                  <p>   <strong>(A) Security Rules </strong>Visitors are prohibited from violating or attempting to violate security of the App, including, without limitation: (1) accessing data not intended for such user or logging into a server or account which the user is not authorised to access, (2) attempting to probe, scan or test the vulnerability of a system or network or to breach security or authentication measures without proper authorisation, (3) attempting to interfere with service to any user, host or network, including, without limitation, via means of submitting a virus or “Trojan horse” to the Website, overloading, “flooding”, “mailbombing” or “crashing”, or (4) sending unsolicited electronic mail, including promotions and/or advertising of products or services. Violations may result in civil or criminal liability. The Seller and/or its associates reserve the right to investigate and cooperate with law enforcement.</p>
 
-              
-                  <p>    <strong>(B) General Rules </strong> Buyer may not use the App in order to transmit, distribute, store or destroy material that could (a) constitute or encourage conduct that would be considered a criminal offence or violate any applicable law or regulation, (b) infringe intellectual property rights or violate personal rights, or (c) be libelous, defamatory, pornographic, profane, obscene, threatening, abusive or hateful.</p>
+                  <p> <strong>(A) Security Rules </strong>Visitors are prohibited from violating or attempting to violate security of the App, including, without limitation: (1) accessing data not intended for such user or logging into a server or account which the user is not authorised to access, (2) attempting to probe, scan or test the vulnerability of a system or network or to breach security or authentication measures without proper authorisation, (3) attempting to interfere with service to any user, host or network, including, without limitation, via means of submitting a virus or “Trojan horse” to the Website, overloading, “flooding”, “mailbombing” or “crashing”, or (4) sending unsolicited electronic mail, including promotions and/or advertising of products or services. Violations may result in civil or criminal liability. The Seller and/or its associates reserve the right to investigate and cooperate with law enforcement.</p>
+
+
+                  <p> <strong>(B) General Rules </strong> Buyer may not use the App in order to transmit, distribute, store or destroy material that could (a) constitute or encourage conduct that would be considered a criminal offence or violate any applicable law or regulation, (b) infringe intellectual property rights or violate personal rights, or (c) be libelous, defamatory, pornographic, profane, obscene, threatening, abusive or hateful.</p>
 
                   <h4>INDEMNITY</h4>
                   <p>The Buyer unilaterally agrees to indemnify and hold harmless, without objection, the Seller, its executives, officers, directors, employees and agents from and against any claims, actions, liabilities, losses, or damages arising from or resulting from their use of the App or breach of the terms.</p>
@@ -87,4 +84,5 @@
       <?php include('footerjs.php'); ?>
    </div>
 </body>
+
 </html>

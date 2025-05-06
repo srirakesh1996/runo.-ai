@@ -1,15 +1,15 @@
 <!-- Deals Section Start -->
 <section class="deals-section" id="dealsSection">
-<img src="img/tri.png" class="motion-deals" data-wow-delay="0.5s">
-<img src="img/tri2.png" class="motion-deals2" data-wow-delay="0.7s">
+  <img src="img/tri.png" class="motion-deals" data-wow-delay="0.5s">
+  <img src="img/tri2.png" class="motion-deals2" data-wow-delay="0.7s">
   <div class="container py-4">
     <div class="row deals-content">
-    
+
       <!-- Section Title -->
       <div class="section-title text-center wow fadeInUp" data-wow-delay="0.2s">
         <h2>Whooosh...That's the Sound of Closing Deals Faster</h2>
-      </div> 
-      
+      </div>
+
       <!-- Left Column -->
       <div class="col-md-5 wow fadeInLeft" data-wow-delay="0.4s">
         <div class="side-nav" id="textNav">
@@ -46,13 +46,13 @@
 
 <!-- Styles for Fade Transition -->
 <style>
-.fade-transition {
-  transition: opacity 0.6s ease-in-out;
-}
+  .fade-transition {
+    transition: opacity 0.6s ease-in-out;
+  }
 
-.fade-out {
-  opacity: 0;
-}
+  .fade-out {
+    opacity: 0;
+  }
 </style>
 
 <!-- Script -->
@@ -61,11 +61,18 @@
   const mainImage = document.getElementById("mainImage");
   const dealsSection = document.getElementById("dealsSection");
 
-  const data = [
-    { img: "img/deals1.png" },
-    { img: "https://placehold.co/800x450?text=Image+2" },
-    { img: "https://placehold.co/800x450?text=Image+3" },
-    { img: "https://placehold.co/800x450?text=Image+4" }
+  const data = [{
+      img: "img/deals1.png"
+    },
+    {
+      img: "https://placehold.co/800x450?text=Image+2"
+    },
+    {
+      img: "https://placehold.co/800x450?text=Image+3"
+    },
+    {
+      img: "https://placehold.co/800x450?text=Image+4"
+    }
   ];
 
   let currentIndex = 0;
@@ -105,8 +112,9 @@
         }, 500000); // Switch every 5 sec
       }
     });
-  }, { threshold: 0.5 }); // 50% visible
+  }, {
+    threshold: 0.5
+  }); // 50% visible
 
   observer.observe(dealsSection);
 </script>
-
