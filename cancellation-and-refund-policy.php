@@ -1,10 +1,37 @@
 <?php include('doctype.php'); ?>
+
 <head>
    <title>Cancellation and Refund Policy - Runo by Rutakshi Technologies Pvt Ltd</title>
-  
+
    <?php include('head.php'); ?>
-  
+
+   <!-- Animate.css and WOW.js -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+   <script>
+      new WOW().init();
+   </script>
+   <<<<<<< HEAD=======<style>
+      .legal-content h4 {
+      margin-top: 30px;
+      font-weight: 600;
+      color:#4A5568;
+      margin-bottom:10px;
+      }
+      .legal-content p {
+
+      line-height: 1.7;
+      color: #4A5568;
+      }
+      .legal-content li{
+
+      color: #4A5568;
+      }
+      </style>
+      >>>>>>> a30c7c95144ee9ac4d0bbddb600babeb338944c3
+
 </head>
+
 <body>
    <div>
       <!-- Preloader Start -->

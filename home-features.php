@@ -1,7 +1,7 @@
 <section class="features-section py-5">
-<img src="img/tri.png" class="motion-features" data-wow-delay="0.5s">
+  <img src="img/tri.png" class="motion-features" data-wow-delay="0.5s">
 
-<img src="img/tri2.png" class="motion-features2" data-wow-delay="0.5s">
+  <img src="img/tri2.png" class="motion-features2" data-wow-delay="0.5s">
   <div class="container">
 
     <!-- Section Title -->
@@ -116,7 +116,7 @@
         </div>
       </div>
       <div class="col-md-2">
-        </div>
+      </div>
       <!-- Thirteenth Feature Card -->
       <div class="col-md-4 wow fadeInUp" data-wow-delay="1.5s">
         <div class="feature-card-sec">
@@ -135,8 +135,8 @@
         </div>
       </div>
 
-        <div class="col-md-2">
-        </div>
+      <div class="col-md-2">
+      </div>
     </div>
 
     <!-- Mobile Swiper (Only visible on mobile) -->
@@ -165,7 +165,7 @@
 
 
 <script>
- // Initialize Swiper only on mobile (screen width < 768px)
+  // Initialize Swiper only on mobile (screen width < 768px)
   var swiperInstance;
 
   function initSwiper() {

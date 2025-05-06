@@ -1,9 +1,11 @@
 <?php include('doctype.php'); ?>
+
 <head>
    <title>Data Security - Runo CRM</title>
    <?php include('head.php'); ?>
 
 </head>
+
 <body>
    <div>
       <!-- Preloader Start -->
@@ -54,7 +56,7 @@
                         <h5>Virtual Private Cloud</h5>
                         <p>We use dedicated VPCs with custom firewalls to protect our servers from any external access.
 
-</p>
+                        </p>
                      </div>
                   </div>
                   <div class="col-md-4 mb-4">
@@ -63,7 +65,7 @@
                         <h5>Malware & Spam Protection</h5>
                         <p>All our servers are automatically updated with latest security patches to protect against latest threat signatures
 
-</p>
+                        </p>
                      </div>
                   </div>
                   <div class="col-md-4 mb-4">
@@ -72,7 +74,7 @@
                         <h5>Access Controls</h5>
                         <p>Access to servers are severely restricted by using IAM role based access with end to end audit trails.
 
-</p>
+                        </p>
                      </div>
                   </div>
                   <div class="col-md-4 mb-4">
@@ -81,7 +83,7 @@
                         <h5>Data Encryption</h5>
                         <p>Data is encrypted using HTTPS with TLS 1.2 in Transit and AES 256 bit encryption at Rest.
 
-</p>
+                        </p>
                      </div>
                   </div>
                </div>
@@ -100,7 +102,7 @@
                         <h5>Product Roadmap</h5>
                         <p>Our Product Roadmap is designed with focus on Security, Scalability. We follow Agile Sprints to bring the timely releases to our users.
 
-</p>
+                        </p>
                      </div>
                   </div>
                   <div class="col-md-4 mb-4">
@@ -109,7 +111,7 @@
                         <h5>Version Control</h5>
                         <p>Robust Version Control System (VCS) is in place to restrict access based on team roles and all code changes are monitored and recorded.
 
-</p>
+                        </p>
                      </div>
                   </div>
                   <div class="col-md-4 mb-4">
@@ -118,7 +120,7 @@
                         <h5>Code Review</h5>
                         <p>All changes are reviewed and approved by multiple team members before it’s released to the Quality Assurance team.
 
-</p>
+                        </p>
                      </div>
                   </div>
                   <div class="col-md-4 mb-4">
@@ -127,7 +129,7 @@
                         <h5>Quality Assurance</h5>
                         <p>New releases undergo multiple QA testing cycles apart from Dev testing cycles, to ensure that no bugs are making it through to you.
 
-</p>
+                        </p>
                      </div>
                   </div>
                </div>
@@ -146,7 +148,7 @@
                         <h5>Secure Containers</h5>
                         <p>We use dedicated VPCs with custom firewalls to protect our servers from any external access.
 
-</p>
+                        </p>
                      </div>
                   </div>
                   <div class="col-md-4 mb-4">
@@ -155,7 +157,7 @@
                         <h5>Content Distribution Network</h5>
                         <p>All our servers are automatically updated with latest security patches to protect against latest threat signatures
 
-</p>
+                        </p>
                      </div>
                   </div>
                   <div class="col-md-4 mb-4">
@@ -164,7 +166,7 @@
                         <h5>Load Balancing</h5>
                         <p>All requests are handled individually in separate auto scalable containers, to support split second response times even during the peak usage hours.
 
-</p>
+                        </p>
                      </div>
                   </div>
                   <div class="col-md-4 mb-4">
@@ -173,7 +175,7 @@
                         <h5>Capacity Management</h5>
                         <p>All servers are monitored for resource consumptions with auto scaling enabled beyond the configured thresholds. This ensures that we are always ready for your growth with us.
 
-</p>
+                        </p>
                      </div>
                   </div>
                   <div class="col-md-4 mb-4">
@@ -182,7 +184,7 @@
                         <h5>Data Backup</h5>
                         <p>Data backup snapshots are taken every day and retained for the last 10 days to support data recovery.
 
-</p>
+                        </p>
                      </div>
                   </div>
                </div>
@@ -193,7 +195,8 @@
 
    </div>
 
-<?php include('footer.php'); ?>
-<?php include('footerjs.php'); ?>
+   <?php include('footer.php'); ?>
+   <?php include('footerjs.php'); ?>
 </body>
+
 </html>

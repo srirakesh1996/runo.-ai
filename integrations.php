@@ -1,10 +1,12 @@
 <?php include('doctype.php'); ?>
+
 <head>
    <title>Boost Productivity with Runo’s Seamless Integrations
    </title>
    <?php include('head.php'); ?>
 
 </head>
+
 <body>
    <div>
       <!-- Preloader Start -->
@@ -175,7 +177,7 @@
                </div>
             </div>
             <div class="row align-items-center">
-             
+
                <div class="col-lg-6">
                   <!-- Our Approach Content Start -->
                   <div class="our-approach-content">
@@ -220,7 +222,7 @@
                   <div class="image-wrapper">
                      <!-- Main Image with FadeIn -->
                      <img src="img/int4.png" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
-                  
+
                      <img src="img/int7.png" alt="Right Floating Box"
                         class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
                   </div>
@@ -246,16 +248,16 @@
             </div>
          </div>
          <div class="row align-items-center">
-         <div class="col-lg-6">
+            <div class="col-lg-6">
                <div class="image-wrapper">
                   <!-- Main Image with FadeIn -->
                   <img src="img/int8.png" alt="Main Portrait" class="center-image wow fadeIn" data-wow-delay="0.2s">
                   <!-- Floating Images -->
-                
+
                   <img src="img/int9.png" alt="Right Floating Box"
                      class="side-image right-image wow fadeInRight" data-wow-delay="0.4s">
                </div>
-            </div> 
+            </div>
             <div class="col-lg-6">
                <!-- Our Approach Content Start -->
                <div class="our-approach-content">
@@ -295,197 +297,198 @@
                <!-- Our Approach Content End -->
             </div>
 
-          
+
          </div>
       </div>
    </div>
    <!-- Our Approach Section End -->
 
 
-    <!-- Demo CTA Section -->
-    <section class="demo-section wow fadeInUp" data-wow-delay="0.3s">
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-md-6 demo-img text-center mb-4 mb-md-0">
-                  <img src="img/cta-pic.png" alt="Woman pointing">
-               </div>
-               <div class="col-md-6 demo-text">
-                  <h2 class="wow fadeInUp" data-wow-delay="0.4s">
+   <!-- Demo CTA Section -->
+   <section class="demo-section wow fadeInUp" data-wow-delay="0.3s">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-md-6 demo-img text-center mb-4 mb-md-0">
+               <img src="img/cta-pic.png" alt="Woman pointing">
+            </div>
+            <div class="col-md-6 demo-text">
+               <h2 class="wow fadeInUp" data-wow-delay="0.4s">
                   Unlock Effortless Integrations: Connect & Go!
 
-                  </h2>
-                  <p class="mt-4 wow fadeInUp" data-wow-delay="0.5s">
+               </h2>
+               <p class="mt-4 wow fadeInUp" data-wow-delay="0.5s">
                   Connect. Automate. Grow with Runo.
 
 
-                  </p>
-                  <div class="hero-body wow zoomIn" data-wow-delay="0.6s">
-                     <div class="hero-btn">
-                        <a href="contact.html" class="btn-orange">Book a Demo</a>
-                     </div>
-                     <div class="hero-btn">
-                        <a href="contact.html" class="btn-default btn-highlighted">Start 10-day free trial</a>
-                     </div>
+               </p>
+               <div class="hero-body wow zoomIn" data-wow-delay="0.6s">
+                  <div class="hero-btn">
+                     <a href="contact.html" class="btn-orange">Book a Demo</a>
+                  </div>
+                  <div class="hero-btn">
+                     <a href="contact.html" class="btn-default btn-highlighted">Start 10-day free trial</a>
                   </div>
                </div>
             </div>
          </div>
-      </section>
+      </div>
+   </section>
 
 
 
-<!-- Our Faqs Section Start -->
-<div class="our-faqs">
-    <div class="container">
-        <div class="row">
+   <!-- Our Faqs Section Start -->
+   <div class="our-faqs">
+      <div class="container">
+         <div class="row">
             <!-- Left Column -->
             <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
-                <!-- Our Faq Content Start -->
-                <div class="our-faq-content">
-                    <!-- Section Title Start -->
-                    <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
-                        <h2>Got questions? we've got <span>answers!</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-                <!-- Our Faq Content End -->
+               <!-- Our Faq Content Start -->
+               <div class="our-faq-content">
+                  <!-- Section Title Start -->
+                  <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
+                     <h2>Got questions? we've got <span>answers!</span></h2>
+                  </div>
+                  <!-- Section Title End -->
+               </div>
+               <!-- Our Faq Content End -->
             </div>
 
             <!-- Right Column -->
             <div class="col-lg-6">
-                <!-- FAQ Accordion Start -->
-                <div class="faq-accordion" id="accordion">
-                    <!-- FAQ Item Start -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
-                        <h2 class="accordion-header" id="heading1">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                How do Runo’s integrations improve workflow efficiency?
-                            </button>
-                        </h2>
-                        <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
-                            <div class="accordion-body">
-                                <p>Runo’s integrations connect seamlessly with essential tools, automating data transfer and communication, thereby streamlining processes and saving time.</p>
-                            </div>
+               <!-- FAQ Accordion Start -->
+               <div class="faq-accordion" id="accordion">
+                  <!-- FAQ Item Start -->
+                  <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
+                     <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                           How do Runo’s integrations improve workflow efficiency?
+                        </button>
+                     </h2>
+                     <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                           <p>Runo’s integrations connect seamlessly with essential tools, automating data transfer and communication, thereby streamlining processes and saving time.</p>
                         </div>
-                    </div>
-                    <!-- FAQ Item End -->
+                     </div>
+                  </div>
+                  <!-- FAQ Item End -->
 
-                    <!-- FAQ Item Start -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
-                        <h2 class="accordion-header" id="heading2">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                Can I customize the integration settings?
-                            </button>
-                        </h2>
-                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
-                            <div class="accordion-body">
-                                <p>Yes, Runo allows you to customize field mappings and workflow automations to suit your specific business needs.</p>
-                            </div>
+                  <!-- FAQ Item Start -->
+                  <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
+                     <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                           Can I customize the integration settings?
+                        </button>
+                     </h2>
+                     <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                           <p>Yes, Runo allows you to customize field mappings and workflow automations to suit your specific business needs.</p>
                         </div>
-                    </div>
-                    <!-- FAQ Item End -->
+                     </div>
+                  </div>
+                  <!-- FAQ Item End -->
 
-                    <!-- FAQ Item Start -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s">
-                        <h2 class="accordion-header" id="heading3">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                Is data transfer secure with these integrations?
-                            </button>
-                        </h2>
-                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
-                            <div class="accordion-body">
-                                <p>Absolutely, Runo employs robust encryption and security protocols to ensure all data transfers are secure.</p>
-                            </div>
+                  <!-- FAQ Item Start -->
+                  <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s">
+                     <h2 class="accordion-header" id="heading3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                           Is data transfer secure with these integrations?
+                        </button>
+                     </h2>
+                     <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                           <p>Absolutely, Runo employs robust encryption and security protocols to ensure all data transfers are secure.</p>
                         </div>
-                    </div>
-                    <!-- FAQ Item End -->
+                     </div>
+                  </div>
+                  <!-- FAQ Item End -->
 
-                    <!-- FAQ Item Start -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.9s">
-                        <h2 class="accordion-header" id="heading4">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                Do these integrations support real-time data updates?
-                            </button>
-                        </h2>
-                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
-                            <div class="accordion-body">
-                                <p>Yes, all integrations are designed to support real-time data synchronization, ensuring that your information is always up-to-date.</p>
-                            </div>
+                  <!-- FAQ Item Start -->
+                  <div class="accordion-item wow fadeInUp" data-wow-delay="0.9s">
+                     <h2 class="accordion-header" id="heading4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                           Do these integrations support real-time data updates?
+                        </button>
+                     </h2>
+                     <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                           <p>Yes, all integrations are designed to support real-time data synchronization, ensuring that your information is always up-to-date.</p>
                         </div>
-                    </div>
-                    <!-- FAQ Item End -->
+                     </div>
+                  </div>
+                  <!-- FAQ Item End -->
 
-                    <!-- FAQ Item Start -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="1.1s">
-                        <h2 class="accordion-header" id="heading5">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                How easy is it to set up these integrations?
-                            </button>
-                        </h2>
-                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
-                            <div class="accordion-body">
-                                <p>Setting up integrations in Runo is straightforward, with step-by-step guides and support to help you through the process.</p>
-                            </div>
+                  <!-- FAQ Item Start -->
+                  <div class="accordion-item wow fadeInUp" data-wow-delay="1.1s">
+                     <h2 class="accordion-header" id="heading5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                           How easy is it to set up these integrations?
+                        </button>
+                     </h2>
+                     <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                           <p>Setting up integrations in Runo is straightforward, with step-by-step guides and support to help you through the process.</p>
                         </div>
-                    </div>
-                    <!-- FAQ Item End -->
-                </div>
-                <!-- FAQ Accordion End -->
+                     </div>
+                  </div>
+                  <!-- FAQ Item End -->
+               </div>
+               <!-- FAQ Accordion End -->
             </div>
-        </div>
-    </div>
-</div>
-<!-- Our Faqs Section End -->
-
-
-
-<section class="app-section py-5 text-white">
-  <div class="container">
-    <div class="row align-items-center text-center text-md-start">
-      
-      <!-- Text Section -->
-      <div class="col-md-6 mb-4 mb-md-0 wow fadeInLeft" data-wow-delay="0.2s">
-        <div class="d-flex gap-5 justify-content-center justify-content-md-start">
-          <div>
-            <h2 class="fw-bold">50k<sup>+</sup></h2>
-            <p class="mb-0">Downloads</p>
-          </div>
-          <div>
-            <h2 class="fw-bold">4.9<sup>+</sup></h2>
-            <p class="mb-0">Users Rating</p>
-          </div>
-          <div>
-            <h2 class="fw-bold">15k<sup>+</sup></h2>
-            <p class="mb-0">Subscriptions</p>
-          </div>
-        </div>
+         </div>
       </div>
+   </div>
+   <!-- Our Faqs Section End -->
 
-      <!-- Image Section -->
-      <div class="col-md-4 mb-4 mb-md-0 d-flex justify-content-center wow zoomIn" data-wow-delay="0.4s">
-        <img src="img/mobile.png" alt="App Preview" class="img-fluid" style="width:80%">
+
+
+   <section class="app-section py-5 text-white">
+      <div class="container">
+         <div class="row align-items-center text-center text-md-start">
+
+            <!-- Text Section -->
+            <div class="col-md-6 mb-4 mb-md-0 wow fadeInLeft" data-wow-delay="0.2s">
+               <div class="d-flex gap-5 justify-content-center justify-content-md-start">
+                  <div>
+                     <h2 class="fw-bold">50k<sup>+</sup></h2>
+                     <p class="mb-0">Downloads</p>
+                  </div>
+                  <div>
+                     <h2 class="fw-bold">4.9<sup>+</sup></h2>
+                     <p class="mb-0">Users Rating</p>
+                  </div>
+                  <div>
+                     <h2 class="fw-bold">15k<sup>+</sup></h2>
+                     <p class="mb-0">Subscriptions</p>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Image Section -->
+            <div class="col-md-4 mb-4 mb-md-0 d-flex justify-content-center wow zoomIn" data-wow-delay="0.4s">
+               <img src="img/mobile.png" alt="App Preview" class="img-fluid" style="width:80%">
+            </div>
+
+            <!-- App Icons Section -->
+            <div class="col-md-2 wow fadeInRight" data-wow-delay="0.6s">
+               <div class="d-flex flex-column align-items-center gap-3">
+                  <a href="#" class="store-badge">
+                     <img src="img/apple.png" alt="Apple Store">
+                  </a>
+                  <a href="#" class="store-badge">
+                     <img src="img/playstore.png" alt="Google Play">
+                  </a>
+               </div>
+            </div>
+
+         </div>
       </div>
-
-      <!-- App Icons Section -->
-      <div class="col-md-2 wow fadeInRight" data-wow-delay="0.6s">
-        <div class="d-flex flex-column align-items-center gap-3">
-          <a href="#" class="store-badge">
-            <img src="img/apple.png" alt="Apple Store">
-          </a>
-          <a href="#" class="store-badge">
-            <img src="img/playstore.png" alt="Google Play">
-          </a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
+   </section>
 
 
 
-      </div>
+   </div>
    <?php include('footer.php'); ?>
    <?php include('footerjs.php'); ?>
 </body>
+
 </html>

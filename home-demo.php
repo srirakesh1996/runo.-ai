@@ -2,8 +2,8 @@
 <section class="demo-section">
   <div class="container">
 
-  <img src="img/tri2.png" class="motion-demo" data-wow-delay="0.5s">
-<img src="img/tri.png" class="motion-demo2" data-wow-delay="0.7s">
+    <img src="img/tri2.png" class="motion-demo" data-wow-delay="0.5s">
+    <img src="img/tri.png" class="motion-demo2" data-wow-delay="0.7s">
     <div class="row">
 
       <!-- Section Title -->
@@ -38,24 +38,24 @@
 
 
 <script>
-   const openModal = document.getElementById('openModal');
-   const closeModal = document.getElementById('closeModal');
-   const videoModal = document.getElementById('videoModal');
-   const youtubeVideo = document.getElementById('youtubeVideo');
-   
-   openModal.addEventListener('click', () => {
-     videoModal.style.display = 'block';
-     youtubeVideo.src = "https://www.youtube.com/embed/2bSKlD-nVbg?si=BwgrkqairEzYqfpF"; // Replace YOUR_VIDEO_ID
-   });
-   closeModal.addEventListener('click', () => {
-     videoModal.style.display = 'none';
-     youtubeVideo.src = "";
-   });
-   
-   window.addEventListener('click', (e) => {
-     if (e.target === videoModal) {
-       videoModal.style.display = 'none';
-       youtubeVideo.src = "";
-     }
-   });
+  const openModal = document.getElementById('openModal');
+  const closeModal = document.getElementById('closeModal');
+  const videoModal = document.getElementById('videoModal');
+  const youtubeVideo = document.getElementById('youtubeVideo');
+
+  openModal.addEventListener('click', () => {
+    videoModal.style.display = 'block';
+    youtubeVideo.src = "https://www.youtube.com/embed/2bSKlD-nVbg?si=BwgrkqairEzYqfpF"; // Replace YOUR_VIDEO_ID
+  });
+  closeModal.addEventListener('click', () => {
+    videoModal.style.display = 'none';
+    youtubeVideo.src = "";
+  });
+
+  window.addEventListener('click', (e) => {
+    if (e.target === videoModal) {
+      videoModal.style.display = 'none';
+      youtubeVideo.src = "";
+    }
+  });
 </script>
