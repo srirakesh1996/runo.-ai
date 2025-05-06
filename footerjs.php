@@ -23,6 +23,10 @@
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
 
+    <script>
+         
+
+
           <!-- Sticky Header Script -->
           <script>
          window.addEventListener('scroll', function () {

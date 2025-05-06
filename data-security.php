@@ -3,64 +3,6 @@
    <title>Data Security - Runo CRM</title>
    <?php include('head.php'); ?>
 
-
-
-   <style>
-      .data-heading {
-         text-align: center;
-         width: 80%;
-         margin: 0 auto 2rem;
-      }
-
-      .icon-img {
-         width: 60px;
-         height: 60px;
-         object-fit: contain;
-         margin-bottom: 10px;
-      }
-
-      .data-security    .card {
-   transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
-   border: 2px solid transparent;
-   border-radius: 12px;
-   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-   height: 100%;
-   background-color: #fff;
-   overflow: hidden;
-}
-/* Hover effect */
-.data-security .card:hover {
-  transform: scale(1.05);
-  box-shadow:
-    0 8px 24px rgba(0, 0, 0, 0.2),
-    0 12px 36px rgba(0, 0, 0, 0.12),
-    0 0 0 2px rgba(255, 122, 89, 0.3);
-}
-
-
-
-.data-security      .card p {
-         font-size: 14px !important;
-         font-weight: 400;
-      }
-
-      .data-security   .card h5 {
-         font-size: 20px !important;
-         margin: 10px 0px;
-      }
-
-
-      @media only screen and (max-width: 600px) {
-        .data-heading {
-         text-align: center;
-         width: 100%;
-         margin: 0 auto 2rem;
-      }
-}
-
-
-
-   </style>
 </head>
 <body>
    <div>

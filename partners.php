@@ -10,19 +10,6 @@
       new WOW().init();
    </script>
 
-   <style>
-    .page-contact-us li{
-
-        color:#212121;
-        margin:10px 0px;
-    }
-
-    label{
-
-        color:#212121;
-        margin-bottom:10px;
-    }
-   </style>
 </head>
 <body>
    <div>

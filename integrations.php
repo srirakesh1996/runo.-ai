@@ -1,65 +1,9 @@
 <?php include('doctype.php'); ?>
 <head>
-   <title>Data Security - Runo CRM</title>
+   <title>Boost Productivity with Runo’s Seamless Integrations
+   </title>
    <?php include('head.php'); ?>
-   <style>
-      .image-wrapper {
-      position: relative;
-      width: 100%;
-      max-width: 1000px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      }
-      .center-image {
-      width: 60%;
-      max-width: 500px;
-      z-index: 1;
-      border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-      }
-      .side-image {
-      position: absolute;
-      width: 200px;
-      border-radius: 10px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-      animation: floatUpDown 2s ease-in-out infinite;
-      }
-      .left-image {
-      left: 0px;
-      top: 70%;
-      z-index:1;
-      transform: translateY(-50%);
-      }
-      .right-image {
-      right: -0px;
-      top: 30%;
-      z-index:1;
-      transform: translateY(-50%);
-      }
-      @keyframes floatUpDown {
-      0%, 100% {
-      transform: translateY(-50%) translateY(0);
-      }
-      50% {
-      transform: translateY(-50%) translateY(-20px);
-      }
-      }
-      @media (max-width: 768px) {
-      .side-image {
-      width:  70%;
-      }
-      .left-image {
-      left: 0px;
-      }
-      .right-image {
-      right: 0px;
-      }
-      .center-image {
-      width: 80%;
-      }
-      }
-   </style>
+
 </head>
 <body>
    <div>
@@ -388,24 +332,158 @@
          </div>
       </section>
 
-      <!-- Optional custom styles -->
-      <style>
-         .demo-section {
-            padding: 60px 0;
-            background-color: #fff6f6;
-         }
-         .demo-text h2 {
-            font-weight: 700;
-            color: #2e0e3a;
-         }
-         .demo-text p {
-            color: #5a3e5e;
-            font-size: 18px;
-         }
-         .demo-img img {
-            max-width: 100%;
-         }
-      </style>
+
+
+<!-- Our Faqs Section Start -->
+<div class="our-faqs">
+    <div class="container">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <!-- Our Faq Content Start -->
+                <div class="our-faq-content">
+                    <!-- Section Title Start -->
+                    <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
+                        <h2>Got questions? we've got <span>answers!</span></h2>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+                <!-- Our Faq Content End -->
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-lg-6">
+                <!-- FAQ Accordion Start -->
+                <div class="faq-accordion" id="accordion">
+                    <!-- FAQ Item Start -->
+                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.3s">
+                        <h2 class="accordion-header" id="heading1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                How do Runo’s integrations improve workflow efficiency?
+                            </button>
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                <p>Runo’s integrations connect seamlessly with essential tools, automating data transfer and communication, thereby streamlining processes and saving time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item End -->
+
+                    <!-- FAQ Item Start -->
+                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
+                        <h2 class="accordion-header" id="heading2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                Can I customize the integration settings?
+                            </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                <p>Yes, Runo allows you to customize field mappings and workflow automations to suit your specific business needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item End -->
+
+                    <!-- FAQ Item Start -->
+                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s">
+                        <h2 class="accordion-header" id="heading3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                Is data transfer secure with these integrations?
+                            </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                <p>Absolutely, Runo employs robust encryption and security protocols to ensure all data transfers are secure.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item End -->
+
+                    <!-- FAQ Item Start -->
+                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.9s">
+                        <h2 class="accordion-header" id="heading4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                Do these integrations support real-time data updates?
+                            </button>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                <p>Yes, all integrations are designed to support real-time data synchronization, ensuring that your information is always up-to-date.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item End -->
+
+                    <!-- FAQ Item Start -->
+                    <div class="accordion-item wow fadeInUp" data-wow-delay="1.1s">
+                        <h2 class="accordion-header" id="heading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                How easy is it to set up these integrations?
+                            </button>
+                        </h2>
+                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                <p>Setting up integrations in Runo is straightforward, with step-by-step guides and support to help you through the process.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FAQ Item End -->
+                </div>
+                <!-- FAQ Accordion End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Our Faqs Section End -->
+
+
+
+<section class="app-section py-5 text-white">
+  <div class="container">
+    <div class="row align-items-center text-center text-md-start">
+      
+      <!-- Text Section -->
+      <div class="col-md-6 mb-4 mb-md-0 wow fadeInLeft" data-wow-delay="0.2s">
+        <div class="d-flex gap-5 justify-content-center justify-content-md-start">
+          <div>
+            <h2 class="fw-bold">50k<sup>+</sup></h2>
+            <p class="mb-0">Downloads</p>
+          </div>
+          <div>
+            <h2 class="fw-bold">4.9<sup>+</sup></h2>
+            <p class="mb-0">Users Rating</p>
+          </div>
+          <div>
+            <h2 class="fw-bold">15k<sup>+</sup></h2>
+            <p class="mb-0">Subscriptions</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Section -->
+      <div class="col-md-4 mb-4 mb-md-0 d-flex justify-content-center wow zoomIn" data-wow-delay="0.4s">
+        <img src="img/mobile.png" alt="App Preview" class="img-fluid" style="width:80%">
+      </div>
+
+      <!-- App Icons Section -->
+      <div class="col-md-2 wow fadeInRight" data-wow-delay="0.6s">
+        <div class="d-flex flex-column align-items-center gap-3">
+          <a href="#" class="store-badge">
+            <img src="img/apple.png" alt="Apple Store">
+          </a>
+          <a href="#" class="store-badge">
+            <img src="img/playstore.png" alt="Google Play">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
       </div>
    <?php include('footer.php'); ?>
    <?php include('footerjs.php'); ?>

@@ -44,8 +44,9 @@
     <?php include('home-contact.php'); ?>
 
     </div>
+
     
-    <?php include('footer.php'); ?>
+    <?php //include('footer.php'); ?>
 
     <?php include('footerjs.php'); ?>
     <script>
