@@ -3,8 +3,6 @@
    <title>Contact</title>
    <?php include('head.php'); ?>
 
-
-
 </head>
 <body>
    <div>
