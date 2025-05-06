@@ -1,6 +1,6 @@
 <?php include('doctype.php'); ?>
 <head>
-   <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+   <title>About Us</title>
  
    <?php include('head.php'); ?>
 
