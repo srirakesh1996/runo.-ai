@@ -1,15 +1,36 @@
-<?php include('doctype.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Runo - Best Outbound Call Center CRM with auto dialer for Telecalling
+    </title>
 
-<head>
-   <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <div id="doctype-container"></div>
 
-   <?php include('head.php'); ?>
+    <!-- Bootstrap Css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <!-- SlickNav Css -->
+    <link href="css/slicknav.min.css" rel="stylesheet" />
+    <!-- Main Custom Css -->
+    <link href="css/custom.css" rel="stylesheet" media="screen" />
+    <!-- Main Custom Css -->
+    <link href="css/runo.css" rel="stylesheet" media="screen" />
+    <!-- Main Custom js file -->
+    <script src="js/function.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <div id="head-container"></div>
+  </head>
+  <body>
+    <div>
+      <!-- Include PHP Files Dynamically -->
 
-
-</head>
-
-<body>
-   <div>
       <!-- Preloader Start -->
       <div class="preloader">
          <div class="loading-container">
@@ -166,13 +187,20 @@
    </div>
 
 
-   </div>
+   <div id="footer-container"></div>
+   <div id="footerjs-container"></div>
+ </div>
 
-   <?php include('footer.php'); ?>
+ <script>
+   $(document).ready(function () {
+     // Dynamically load the PHP files into the containers
+     $("#doctype-container").load("doctype.html");
+     $("#head-container").load("head.html");
+     $("#header-container").load("header.html");
 
-   <?php include('footerjs.php'); ?>
-
-
+     $("#footer-container").load("footer.html");
+     $("#footerjs-container").load("footerjs.html");
+   });
+ </script>
 </body>
-
 </html>
