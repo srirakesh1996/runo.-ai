@@ -1,26 +1,41 @@
-<?php include('doctype.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Runo - Best Outbound Call Center CRM with auto dialer for Telecalling
+    </title>
 
-<head>
-   <title>Runo - Best Outbound Call Center CRM with auto dialer for Telecalling</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <div id="doctype-container"></div>
+    <div id="head-container"></div>
 
-   <?php include('head.php'); ?>
+    <!-- Main Custom Css -->
+    <link href="css/custom.css" rel="stylesheet" media="screen" />
+    <!-- Main Custom Css -->
+    <link href="css/runo.css" rel="stylesheet" media="screen" />
+    <!-- Main Custom js file -->
+    <script src="js/function.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
+  <body>
+    <div>
+      <!-- Include PHP Files Dynamically -->
 
-
-</head>
-
-<body>
-   <div>
       <!-- Preloader Start -->
       <div class="preloader">
-         <div class="loading-container">
-            <div class="loading"></div>
-            <div id="loading-icon"><img src="img/logo.png" alt=""></div>
-         </div>
+        <div class="loading-container">
+          <div class="loading"></div>
+          <div id="loading-icon"><img src="img/logo.png" alt="" /></div>
+        </div>
       </div>
       <!-- Preloader End -->
-
-      <?php include('header.php'); ?>
-
+      <div id="header-container"></div>
 
       <!-- Page Header Start -->
       <div class="page-title">
@@ -166,13 +181,10 @@
    </div>
 
 
-   </div>
-
-   <?php include('footer.php'); ?>
-
-   <?php include('footerjs.php'); ?>
+   <div id="footer-container"></div>
+   <div id="footerjs-container"></div>
+ </div>
 
 
 </body>
-
 </html>
