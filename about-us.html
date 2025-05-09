@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>About Us</title>
-    <div id="head-include"></div>
-  </head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Runo - Best Outbound Call Center CRM with auto dialer for Telecalling
+    </title>
 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <div id="doctype-container"></div>
+    <div id="head-container"></div>
+
+    <!-- Main Custom Css -->
+    <link href="css/custom.css" rel="stylesheet" media="screen" />
+    <!-- Main Custom Css -->
+    <link href="css/runo.css" rel="stylesheet" media="screen" />
+    <!-- Main Custom js file -->
+    <script src="js/function.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
   <body>
     <div>
+      <!-- Include PHP Files Dynamically -->
+
       <!-- Preloader Start -->
       <div class="preloader">
         <div class="loading-container">
@@ -15,9 +35,7 @@
         </div>
       </div>
       <!-- Preloader End -->
-
-      <div id="header-include"></div>
-
+      <div id="header-container"></div>
       <!-- Page Header Start -->
       <div class="page-title">
         <div class="container">
@@ -78,21 +96,31 @@
                 <div class="section-title">
                   <p class="wow fadeInUp" data-wow-delay="0.5s">
                     Traditional systems were cumbersome, costly, and often
-                    required a massive capital investment...
+                    required a massive capital investment. What we envisioned
+                    was a solution that would be accessible to businesses of all
+                    sizes, completely eliminating the need for extensive
+                    hardware and reducing operational costs.
                   </p>
                   <p class="wow fadeInUp" data-wow-delay="0.6s">
                     <b>Runo was born out of this vision.</b>
                   </p>
                   <p class="wow fadeInUp" data-wow-delay="0.7s">
-                    We set out to create the best SIM-based Call Management
-                    CRM...
+                    We set out to create the best SIM-based Call Management CRM,
+                    allowing businesses to run their calling processes directly
+                    from their phones. Our platform offers an integrated CRM,
+                    real-time performance analytics, advanced caller ID, and
+                    seamless integration with external CRMs, WhatsApp, and
+                    email.
                   </p>
                   <p class="wow fadeInUp" data-wow-delay="0.8s">
                     <b>So, what sets us apart?</b>
                   </p>
                   <p class="wow fadeInUp" data-wow-delay="0.9s">
                     We are dedicated to changing the way businesses handle
-                    calls...
+                    calls, deeply focusing on simplicity, scalability, and
+                    security. Our solution allows businesses to scale up or down
+                    instantly with changing team sizes, ensuring high contact
+                    ratios and low recurring costs.
                   </p>
                 </div>
               </div>
@@ -119,12 +147,16 @@
                   data security and zero hassle.
                 </p>
                 <p class="wow fadeInUp" data-wow-delay="0.6s">
-                  Our clients... have seen remarkable improvements in
-                  efficiency...
+                  Our clients, ranging from edutech to healthtech, real estate
+                  to financial services, and sales to recruitment, have seen
+                  remarkable improvements in efficiency, with some reporting up
+                  to an 80% increase within a month of implementation.
                 </p>
                 <p class="wow fadeInUp" data-wow-delay="0.7s">
                   At Runo, we believe in empowering businesses to achieve their
-                  full potential...
+                  full potential through innovative technology. Join us in
+                  revolutionizing call management and CRM, and experience the
+                  difference with Runo.
                 </p>
               </div>
             </div>
@@ -160,10 +192,10 @@
               </p>
               <div class="hero-body wow zoomIn" data-wow-delay="0.6s">
                 <div class="hero-btn">
-                  <a href="contact.php" class="btn-orange">Book a Demo</a>
+                  <a href="contact.html" class="btn-orange">Book a Demo</a>
                 </div>
                 <div class="hero-btn">
-                  <a href="contact.php" class="btn-default btn-highlighted"
+                  <a href="contact.html" class="btn-default btn-highlighted"
                     >Start 10-day free trial</a
                   >
                 </div>
@@ -173,7 +205,7 @@
         </div>
       </section>
 
-      <!-- Optional custom styles -->
+      <<<<<<< HEAD=======<!-- Optional custom styles -->
       <style>
         .demo-section {
           padding: 60px 0;
@@ -194,7 +226,6 @@
           max-width: 100%;
         }
       </style>
-
       <!-- Sticky Header Script -->
       <script>
         window.addEventListener("scroll", function () {
@@ -207,18 +238,19 @@
         });
       </script>
 
-      <div id="footer-include"></div>
-      <div id="footerjs-include"></div>
+      <div id="footer-container"></div>
+      <div id="footerjs-container"></div>
     </div>
 
-    <!-- jQuery (CDN) -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-      $(function () {
-        $("#head-include").load("head.html");
-        $("#header-include").load("header.html");
-        $("#footer-include").load("footer.html");
-        $("#footerjs-include").load("footerjs.html");
+      $(document).ready(function () {
+        // Dynamically load the PHP files into the containers
+        $("#doctype-container").load("doctype.html");
+        $("#head-container").load("head.html");
+        $("#header-container").load("header.html");
+
+        $("#footer-container").load("footer.html");
+        $("#footerjs-container").load("footerjs.html");
       });
     </script>
   </body>
