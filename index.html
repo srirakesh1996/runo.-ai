@@ -7,22 +7,20 @@
       Runo - Best Outbound Call Center CRM with auto dialer for Telecalling
     </title>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Bootstrap Css -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <!-- SlickNav Css -->
     <link href="css/slicknav.min.css" rel="stylesheet" />
     <!-- Main Custom Css -->
     <link href="css/custom.css" rel="stylesheet" media="screen" />
-    <!-- Main Custom Css -->
     <link href="css/runo.css" rel="stylesheet" media="screen" />
-    <!-- Main Custom js file -->
-    <script src="js/function.js"></script>
+    <!-- Custom JS -->
+    <script src="js/function.js" defer></script>
   </head>
+
   <body>
     <div id="home">
-      <!-- Include PHP Files Dynamically -->
+      <!-- Include HTML Partials Dynamically -->
       <div id="doctype-container"></div>
       <div id="head-container"></div>
 
@@ -50,25 +48,45 @@
       <div id="footerjs-container"></div>
     </div>
 
-    <!-- jQuery Script for Dynamic Includes -->
+    <!-- Pure JavaScript Dynamic HTML Includes -->
     <script>
-      $(document).ready(function () {
-        // Dynamically load the PHP files into the containers
-        $("#doctype-container").load("doctype.html");
-        $("#head-container").load("head.html");
-        $("#home-banner-container").load("home-banner.html");
-        $("#home-clients-container").load("home-clients.html");
-        $("#home-deals-container").load("home-deals.html");
-        $("#home-cloud-container").load("home-cloud.html");
-        $("#home-demo-container").load("home-demo.html");
-        $("#home-features-container").load("home-features.html");
-        $("#home-lead-container").load("home-lead.html");
-        $("#home-comparision-container").load("home-comparision.html");
-        $("#home-testimonials-container").load("home-testimonials.html");
-        $("#home-faqs-container").load("home-faqs.html");
-        $("#home-contact-container").load("home-contact.html");
-        $("#footer-container").load("footer.html");
-        $("#footerjs-container").load("footerjs.html");
+      document.addEventListener("DOMContentLoaded", () => {
+        const includes = {
+          "doctype-container": "doctype.html",
+          "head-container": "head.html",
+          "home-banner-container": "home-banner.html",
+          "home-clients-container": "home-clients.html",
+          "home-deals-container": "home-deals.html",
+          "home-cloud-container": "home-cloud.html",
+          "home-demo-container": "home-demo.html",
+          "home-features-container": "home-features.html",
+          "home-lead-container": "home-lead.html",
+          "home-comparision-container": "home-comparision.html",
+          "home-testimonials-container": "home-testimonials.html",
+          "home-faqs-container": "home-faqs.html",
+          "home-contact-container": "home-contact.html",
+          "footer-container": "footer.html",
+          "footerjs-container": "footerjs.html",
+        };
+
+        for (const [id, file] of Object.entries(includes)) {
+          const container = document.getElementById(id);
+          if (container) {
+            fetch(file)
+              .then((response) => {
+                if (!response.ok) {
+                  throw new Error(`Failed to load ${file}`);
+                }
+                return response.text();
+              })
+              .then((html) => {
+                container.innerHTML = html;
+              })
+              .catch((error) => {
+                console.error(error.message);
+              });
+          }
+        }
       });
     </script>
   </body>
