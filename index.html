@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Runo - Best Outbound Call Center CRM with auto dialer for Telecalling
+    </title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Main Custom Css -->
+    <link href="css/custom.css" rel="stylesheet" media="screen" />
+    <!-- Main Custom Css -->
+    <link href="css/runo.css" rel="stylesheet" media="screen" />
+    <!-- Main Custom js file -->
+    <script src="js/function.js"></script>
+  </head>
+  <body>
+    <div id="home">
+      <!-- Include PHP Files Dynamically -->
+      <div id="doctype-container"></div>
+      <div id="head-container"></div>
+
+      <!-- Preloader Start -->
+      <div class="preloader">
+        <div class="loading-container">
+          <div class="loading"></div>
+          <div id="loading-icon"><img src="img/logo.png" alt="" /></div>
+        </div>
+      </div>
+      <!-- Preloader End -->
+
+      <div id="home-banner-container"></div>
+      <div id="home-clients-container"></div>
+      <div id="home-deals-container"></div>
+      <div id="home-cloud-container"></div>
+      <div id="home-demo-container"></div>
+      <div id="home-features-container"></div>
+      <div id="home-lead-container"></div>
+      <div id="home-comparision-container"></div>
+      <div id="home-testimonials-container"></div>
+      <div id="home-faqs-container"></div>
+      <div id="home-contact-container"></div>
+      <div id="footer-container"></div>
+      <div id="footerjs-container"></div>
+    </div>
+
+    <!-- jQuery Script for Dynamic Includes -->
+    <script>
+      $(document).ready(function () {
+        // Dynamically load the PHP files into the containers
+        $("#doctype-container").load("doctype.html");
+        $("#head-container").load("head.html");
+        $("#home-banner-container").load("home-banner.html");
+        $("#home-clients-container").load("home-clients.html");
+        $("#home-deals-container").load("home-deals.html");
+        $("#home-cloud-container").load("home-cloud.html");
+        $("#home-demo-container").load("home-demo.html");
+        $("#home-features-container").load("home-features.html");
+        $("#home-lead-container").load("home-lead.html");
+        $("#home-comparision-container").load("home-comparision.html");
+        $("#home-testimonials-container").load("home-testimonials.html");
+        $("#home-faqs-container").load("home-faqs.html");
+        $("#home-contact-container").load("home-contact.html");
+        $("#footer-container").load("footer.html");
+        $("#footerjs-container").load("footerjs.html");
+      });
+    </script>
+  </body>
+</html>

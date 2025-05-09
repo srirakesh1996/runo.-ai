@@ -1,0 +1,210 @@
+<style>
+  .testimonial-prev-btn,
+  .testimonial-next-btn {
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #333333;
+    color: #333333;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .testimonial-prev-btn.swiper-button-disabled,
+  .testimonial-next-btn.swiper-button-disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  .testimonial-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(198, 198, 198);
+    margin-bottom: 15px;
+  }
+</style>
+
+<!-- Testimonial Section -->
+<div class="our-tesimonial">
+
+  <style>
+    .security-section {
+      padding: 30px;
+      background-color: #fff;
+      width: 80%;
+      margin: 50px auto;
+      border-radius: 30px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .security-section {
+        width: 100%;
+      }
+    }
+
+    .security-text h2 {
+      font-weight: bold;
+    }
+
+    .security-text p {
+      font-size: 1rem;
+      color: #555;
+    }
+  </style>
+
+
+  <section class="security-section">
+
+    <div class="row align-items-center">
+      <!-- Left Text -->
+      <div class="col-md-7 security-text">
+        <h2>Enterprise-grade security</h2>
+        <p>Have peace of mind that your company’s data is fully secure and compliant with the latest industry standard certifications.</p>
+      </div>
+      <!-- Right Badges -->
+      <div class="col-md-5 text-md-end text-center security-badges">
+        <img src="img/security.png" alt="ISO Badge" class="img-fluid">
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <div class="container">
+
+    <!-- Section Title Row with Navigation -->
+    <div class="row section-row align-items-center justify-content-between mb-4 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="col-md-8">
+        <div class="section-title" style="text-align:left;width:100%">
+          <h2>
+            We’re Not Saying Runo’s Magic…
+            But People Think It Is
+          </h2>
+        </div>
+      </div>
+
+      <div class="col-md-4 text-md-end mt-3 mt-md-0" id="arrow-ico">
+        <div class="testimonial-nav-buttons gap-2">
+          <button class="testimonial-prev-btn wow fadeInLeft" data-wow-delay="0.2s">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="testimonial-next-btn wow fadeInRight" data-wow-delay="0.2s">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial Slider -->
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="testimonial-slider wow fadeInUp" data-wow-delay="0.3s">
+          <div class="swiper">
+            <div class="swiper-wrapper" data-cursor-text="Drag">
+
+              <!-- Slide 1 -->
+              <div class="swiper-slide">
+                <div class="testimonial-item wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="testimonial-header">
+                    <p>RUNO is one unique mobile-based calling solution we came across 3 months back. It quickly helped us to streamline our sales process and added quality to sales pitch.</p>
+                    <p>With the monitoring tools, our conversation rates have moved up by 120 percent. Our overall team experience was enhanced in all directions...</p>
+                  </div>
+                  <div class="testimonial-body">
+                    <div class="testimonial-line"></div>
+                    <div class="people">
+                      <div class="author-image wow zoomIn" data-wow-delay="0.5s">
+                        <figure class="image-anime">
+                          <img src="images/author-1.jpg" alt="">
+                        </figure>
+                      </div>
+                      <div class="author-content wow fadeInRight" data-wow-delay="0.6s">
+                        <h3>Dr. Surendranath Reddy Kaswa</h3>
+                        <p>Founder - Plato Digi Education</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="swiper-slide">
+                <div class="testimonial-item wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="testimonial-header">
+                    <p>As a fast growing organization in edu-tech, always felt the need to manage business calls for enhanced customer experience.</p>
+                    <p>We did reach out to a few cloud based service providers, but somehow, due to very high pricing and calls originating from virtual numbers, was not very convincing.</p>
+                  </div>
+                  <div class="testimonial-body">
+                    <div class="testimonial-line"></div>
+                    <div class="people">
+                      <div class="author-image wow zoomIn" data-wow-delay="0.5s">
+                        <figure class="image-anime">
+                          <img src="images/author-2.jpg" alt="">
+                        </figure>
+                      </div>
+                      <div class="author-content wow fadeInRight" data-wow-delay="0.6s">
+                        <h3>ISHAN GUPTA</h3>
+                        <p>Founder, Q-in-1</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 (Duplicate as example) -->
+              <div class="swiper-slide">
+                <div class="testimonial-item wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="testimonial-header">
+                    <p>As a fast growing organization in edu-tech, always felt the need to manage business calls for enhanced customer experience.</p>
+                    <p>We did reach out to a few cloud based service providers, but somehow, due to very high pricing and calls originating from virtual numbers, was not very convincing.</p>
+                  </div>
+                  <div class="testimonial-body">
+                    <div class="testimonial-line"></div>
+                    <div class="people">
+                      <div class="author-image wow zoomIn" data-wow-delay="0.5s">
+                        <figure class="image-anime">
+                          <img src="images/author-2.jpg" alt="">
+                        </figure>
+                      </div>
+                      <div class="author-content wow fadeInRight" data-wow-delay="0.6s">
+                        <h3>ISHAN GUPTA</h3>
+                        <p>Founder, Q-in-1</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div> <!-- End swiper-wrapper -->
+          </div> <!-- End swiper -->
+        </div> <!-- End testimonial-slider -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function updateNavState(swiper) {
+    const prevBtn = document.querySelector(".testimonial-prev-btn");
+    const nextBtn = document.querySelector(".testimonial-next-btn");
+
+    if (swiper.isBeginning) {
+      prevBtn.classList.add("swiper-button-disabled");
+    } else {
+      prevBtn.classList.remove("swiper-button-disabled");
+    }
+
+    if (swiper.isEnd) {
+      nextBtn.classList.add("swiper-button-disabled");
+    } else {
+      nextBtn.classList.remove("swiper-button-disabled");
+    }
+  }
+</script>
