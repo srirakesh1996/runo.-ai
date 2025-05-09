@@ -1,0 +1,418 @@
+ <style>
+   .table-wrapper {
+     border-radius: 20px;
+     overflow: hidden;
+     display: flex;
+     align-items: center;
+   }
+
+   .highlight-box {
+     border-radius: 20px;
+     padding: 5px;
+     background: linear-gradient(93.43deg,
+         #ff5730 -4.63%,
+         #5e33ec 65.52%,
+         #0065f2 106.84%);
+     ;
+   }
+
+   .highlight-inner {
+     border-radius: 18px;
+     background: #fff;
+     padding: 15px 10px;
+     height: 100%;
+   }
+
+   .feature-cell,
+   .rest-cell,
+   .highlight-cell {
+     color: #212121;
+     padding: 15px;
+     text-align: center;
+     font-weight: 500;
+     border-bottom: 1px solid #eee;
+   }
+
+   .feature-cell:first-child,
+   .rest-cell:first-child,
+   .highlight-cell:first-child {
+     font-weight: 700;
+     font-size: 1.5rem;
+   }
+
+   .feature-cell:last-child,
+   .rest-cell:last-child,
+   .highlight-cell:last-child {
+     border-bottom: none;
+   }
+
+   .highlight-cell:first-child {
+     color: #ff5a5f;
+   }
+
+   .rest {
+
+     border: 1px solid #eee;
+     border-radius: 20px
+   }
+
+   .compare-web {
+
+     padding: 50px 0px;
+   }
+
+   .compare-mob {
+     display: none;
+   }
+
+   @media only screen and (max-width: 768px) {
+     .compare-web {
+       display: none !important;
+     }
+
+     .compare-mob {
+       display: block !important;
+
+       padding: 50px 0px;
+     }
+   }
+
+   .compare-web {
+
+     background: linear-gradient(180deg, rgba(245, 243, 237, 0) 0%, #f5f3ed 40%, #f5f3ed 100%) !important;
+
+
+   }
+ </style>
+ </head>
+ <!-- Desktop Comparison Section -->
+ <section class="compare-web">
+   <div class="container">
+     <div class="row justify-content-center">
+       <div class="section-title text-center wow animate__fadeInUp" data-wow-delay="0.2s">
+         <h2>Upgrade Your Workflow: Runo vs The Rest</h2>
+       </div>
+
+       <div class="col-lg-10 wow animate__fadeInUp" data-wow-delay="0.3s">
+         <div class="row g-0 table-wrapper">
+           <div class="col-md-4 bg-white rest wow animate__fadeInLeft" data-wow-delay="0.4s">
+             <div class="feature-cell">Feature</div>
+             <div class="feature-cell">Setup Time</div>
+             <div class="feature-cell">Call Connect Rate</div>
+             <div class="feature-cell">Customization</div>
+             <div class="feature-cell">Lead Allocation</div>
+             <div class="feature-cell">Price</div>
+             <div class="feature-cell">Reliability</div>
+           </div>
+
+           <div class="col-md-4 wow animate__fadeInUp" data-wow-delay="0.5s">
+             <div class="highlight-box h-100">
+               <div class="highlight-inner d-flex flex-column h-100">
+                 <div class="highlight-cell"> <img src="img/logo.png" alt="Runo Logo" class="runo-logo" width="80px"></div>
+                 <div class="highlight-cell">&lt;30 minutes</div>
+                 <div class="highlight-cell">&gt;78%</div>
+                 <div class="highlight-cell">Flexible</div>
+                 <div class="highlight-cell">Auto-Assigned</div>
+                 <div class="highlight-cell">ROI-Friendly</div>
+                 <div class="highlight-cell">Zero Downtime</div>
+               </div>
+             </div>
+           </div>
+
+           <div class="col-md-4 bg-white rest wow animate__fadeInRight" data-wow-delay="0.6s">
+             <div class="rest-cell">The Rest</div>
+             <div class="rest-cell">&gt;30 days</div>
+             <div class="rest-cell">&lt;30%</div>
+             <div class="rest-cell">Rigid</div>
+             <div class="rest-cell">Manual</div>
+             <div class="rest-cell">Expensive</div>
+             <div class="rest-cell">Unstable</div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="text-center mt-70 overlap" id="credit">
+       <div class="mt-4 wow animate__fadeInUp" data-wow-delay="0.8s">
+         <button class="btn-default btn-highlighted">Start 10-day free trial</button>
+         <p>No Credit Card Required</p>
+       </div>
+     </div>
+   </div>
+ </section>
+
+ <style>
+   .why-choose-us-item h3 {
+
+     color: #15161B;
+
+   }
+
+   .why-us-section-title h2 {
+     color: #15161B;
+
+   }
+
+   .port {
+
+     font-size: 21px;
+     color: #212121;
+     line-height: 1.8;
+
+     font-weight: 500;
+   }
+
+
+   #port-head {
+
+     color: #212121;
+     font-size: 40px;
+
+
+   }
+
+   .why-us-explore-item .section-title {
+
+     margin-bottom: 30px;
+   }
+
+   #lin {
+
+     border-right: 2px solid #33ccff;
+
+
+   }
+
+   @media only screen and (max-width: 768px) {
+
+     #lin {
+
+       border-right: 0px;
+
+
+     }
+
+   }
+ </style>
+
+ <style>
+   .row2 {
+     display: flex;
+     justify-content: space-between;
+   }
+
+   .row2 .card2 {
+     width: 45%;
+     /* Adjust as needed */
+     background-color: #f0f0f0;
+     border-radius: 8px;
+     padding: 20px;
+     margin-bottom: 20px;
+   }
+
+   @media screen and (max-width: 768px) {
+     .row2 .card2 {
+       width: 45%;
+       /* Adjust as needed */
+       background-color: #f0f0f0;
+       border: 1px solid #ff5730;
+       border-radius: 8px;
+       padding: 15px !important;
+       margin-bottom: 20px;
+       text-align: center;
+     }
+
+     .row2 .card2 {
+       width: 100%;
+       margin: 10px;
+     }
+
+     .row2 .card2 h2 {
+       font-size: 15px;
+       color: #212121
+     }
+
+     .val {
+       font-size: 16px;
+       line-height: 1.4;
+     }
+
+     .text-left,
+     .text-right {
+       margin-top: 0px;
+     }
+
+     .compm-head {
+       font-weight: 800;
+       text-align: center;
+       font-size: 18px;
+       margin: 8px 0px;
+     }
+
+
+
+   }
+
+   th {
+     border: 1px solid #fff;
+   }
+
+   .runo-color {
+
+     color: #ff5730 !important;
+
+   }
+ </style>
+ <div class="compare-mob">
+
+   <div class="container text-center">
+
+     <div class="section-title text-center">
+
+       <h2>
+         Upgrade Your Workflow:
+         Runo vs The Rest
+       </h2>
+     </div>
+     <table style="width:100%;margin-bottom:10px;border-radius:20px;border:1px solid #fff">
+       <thead>
+         <tr>
+           <th>
+             <div class="text-left wow animate__ animate__fadeInLeft" data-wow-duration="2s">
+               <div class="wow fadeInUp" data-wow-delay="0.25s">
+                 <img src="img/logo.png" alt="Runo Logo" class="runo-logo" width="70px">
+               </div>
+             </div>
+           </th>
+           <th>
+             <div class="text-right wow animate__ animate__fadeInRight" data-wow-duration="2s">
+               <div class="wow fadeInUp" data-wow-delay="0.25s">
+                 <h2 class="val">THE REST</h2>
+               </div>
+             </div>
+           </th>
+         </tr>
+       </thead>
+     </table>
+
+
+
+
+     <h2 class="compm-head">Setup Time</h2>
+     <div class="row2">
+       <div class="card2">
+         <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
+           <div class="wow fadeInUp" data-wow-delay="0.25s">
+             <h2 class="runo-color">&lt; 30 minutes</h2>
+           </div>
+         </div>
+       </div>
+       <div class="card2">
+         <div class="text-right wow animate__fadeInRight" data-wow-duration="2s">
+           <div class="wow fadeInUp" data-wow-delay="0.25s">
+             <h2>&gt; 30 days</h2>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <h2 class="compm-head">Call Connect Rate</h2>
+     <div class="row2">
+       <div class="card2">
+         <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
+           <div class="wow fadeInUp" data-wow-delay="0.25s">
+             <h2 class="runo-color">&gt; 78%</h2>
+           </div>
+         </div>
+       </div>
+       <div class="card2">
+         <div class="text-right wow animate__fadeInRight" data-wow-duration="2s">
+           <div class="wow fadeInUp" data-wow-delay="0.25s">
+             <h2>&lt; 30%</h2>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <h2 class="compm-head">Follow-Up Reminder</h2>
+     <div class="row2">
+       <div class="card2">
+         <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
+           <div class="wow fadeInUp" data-wow-delay="0.25s">
+             <h2 class="runo-color">Flexible</h2>
+           </div>
+         </div>
+       </div>
+       <div class="card2">
+         <div class="text-right wow animate__fadeInRight" data-wow-duration="2s">
+           <div class="wow fadeInUp" data-wow-delay="0.25s">
+             <h2>Rigid</h2>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <h2 class="compm-head">Customization</h2>
+     <div class="row2">
+       <div class="card2">
+         <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
+           <div class="wow fadeInUp" data-wow-delay="0.25s">
+             <h2 class="runo-color">Auto-Assigned</h2>
+           </div>
+         </div>
+       </div>
+       <div class="card2">
+         <div class="text-right wow animate__fadeInRight" data-wow-duration="2s">
+           <div class="wow fadeInUp" data-wow-delay="0.25s">
+             <h2>Manual</h2>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <h2 class="compm-head">Price</h2>
+     <div class="row2">
+       <div class="card2">
+         <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
+           <div class="wow fadeInUp" data-wow-delay="0.25s">
+             <h2 class="runo-color">ROI-Friendly</h2>
+           </div>
+         </div>
+       </div>
+       <div class="card2">
+         <div class="text-right wow animate__fadeInRight" data-wow-duration="2s">
+           <div class="wow fadeInUp" data-wow-delay="0.25s">
+             <h2>Expensive</h2>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <h2 class="compm-head">Reliability</h2>
+     <div class="row2">
+       <div class="card2">
+         <div class="text-left wow animate__fadeInLeft" data-wow-duration="2s">
+           <div class="wow fadeInUp" data-wow-delay="0.25s">
+             <h2 class="runo-color">Zero Downtime</h2>
+           </div>
+         </div>
+       </div>
+       <div class="card2">
+         <div class="text-right wow animate__fadeInRight" data-wow-duration="2s">
+           <div class="wow fadeInUp" data-wow-delay="0.25s">
+             <h2>Unstable</h2>
+           </div>
+         </div>
+       </div>
+     </div>
+
+
+     <div class="text-center overlap" id="credit">
+       <div class="mt-4 wow fadeInUp" data-wow-delay="0.8s">
+         <button class="btn-default btn-highlighted">Start 10-day free trial</button>
+         <p>No Credit Card Required</p>
+       </div>
+     </div>
+
+   </div>
+ </div>

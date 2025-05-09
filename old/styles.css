@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #5b2fff, #6a1b9a);
+  min-height: 100vh;
+  position: relative;
+  padding: 4rem 1rem;
+  overflow: hidden;
+}
+
+.floating-img {
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  animation: float 4s ease-in-out infinite;
+  max-width: 260px;
+}
+
+.floating-deco {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.7;
+}
+
+.deco-1 {
+  top: 12%;
+  left: 6%;
+}
+
+.deco-2 {
+  bottom: 10%;
+  right: 8%;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+/* Scrollable Feature Box */
+.feature-box {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 320px;
+  max-height: 300px;
+  overflow-y: auto;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Scrollbar */
+.feature-box::-webkit-scrollbar {
+  width: 10px;
+}
+.feature-box::-webkit-scrollbar-thumb {
+  background: #e26700;
+  border-radius: 10px;
+}
+
+/* Grid of Features */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  
+}
+
+.feature-card {
+  background: #f1f1f1;
+  color: #333;
+  padding: 10px 8px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.feature-card:hover {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.feature-card.active {
+  border: 2px solid #ff9800;
+  font-weight: 600;
+}
