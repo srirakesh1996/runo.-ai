@@ -32,15 +32,24 @@
       <!-- Include PHP Files Dynamically -->
 
         <!-- Preloader Start -->
-    <div class="runo-preloader">
+      <div class="runo-preloader">
         <div class="runo-preloader-inner">
-            <div class="runo-spinner"></div>
-            <div class="runo-logo">
-                <img src="img/logo.png" alt="Runo Loading">
-            </div>
+          <div class="runo-spinner"></div>
+          <div class="runo-logo">
+            <img src="img/logo.png" alt="Runo Loading" />
+          </div>
         </div>
-    </div>
-    <!-- Preloader End -->
+      </div>
+      <!-- Preloader End -->
+
+      <script>
+        window.addEventListener("load", function () {
+          const preloader = document.querySelector(".runo-preloader");
+          preloader.style.opacity = "0";
+          preloader.style.transition = "opacity 0.5s ease";
+          setTimeout(() => (preloader.style.display = "none"), 400);
+        });
+      </script>
 
       <div id="header-container"></div>
 
